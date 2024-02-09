@@ -64,7 +64,7 @@ This project is not licensed. Feel free to use the code and assets as you see fi
 This project was made possible thanks to the contributions of the following individuals:
 
 - **[Charles Dubreuil](https://github.com/AntiBenevolence)** - Level Designer / UI Designer 
-- **[Daniil Sofin](https://github.com/Danich333))** - Gameplay Designer / Graphics Designer 
+- **[Daniil Sofin](https://github.com/Danich333)** - Gameplay Designer / Graphics Designer 
 - **[Kevin Hamilton](https://github.com/TiBlann)** - Gameplay Designer / Graphics Designer
 - **[Khalid Shams](https://github.com/khalidshams1990)** - Level Designer / UI Designer
 
