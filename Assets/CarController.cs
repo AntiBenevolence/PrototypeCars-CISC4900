@@ -5,25 +5,31 @@ using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
-
+    private Rigidbody rb;
     public WheelColliders colliders;
     public float gasInput;
     public float steeringInput;
-   
     public float motorPower;
+
+    private float speed;
+
+    public AnimationCurve steeringCurve;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = gameObject.GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
 
-       CheckInput(); 
-       applyMotor();
+        speed = rb.velocity.magnitude;
+        CheckInput(); 
+        ApplyMotor();
+        ApplySteering();
     }
 
 
@@ -35,10 +41,20 @@ public class CarController : MonoBehaviour
     }
 
 
-    void applyMotor(){
+    void ApplyMotor(){
         colliders.RRWheels.motorTorque = motorPower * gasInput;
         colliders.RLWheels.motorTorque = motorPower * gasInput;
     }
+
+
+    void ApplySteering(){
+
+    float steeringAngle = steeringInput * steeringCurve.Evaluate(speed);
+    colliders.FRWheels.steerAngle = steeringAngle;
+    colliders.FLWheels.steerAngle = steeringAngle;
+    
+}
+
 }
 
 
