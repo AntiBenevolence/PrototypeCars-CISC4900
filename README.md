@@ -15,11 +15,11 @@
     
 ## About
 
-Our project is a collaborative effort by a group of four programmers who are passionate about creating a semi-realistic driving simulator. Our aim is to develop a simulator that offers an immersive experience with a variety of cars, each meticulously crafted to have its own unique handling and feel.
+Our project is a collaborative effort by a group of four programmers who are passionate about creating a realistic driving simulator. Our aim is to develop a simulator that offers an immersive experience with a variety of cars, each meticulously crafted to have its own unique handling and feel.
 
-In our simulator, every car will maneuver differently based on its statistics, type, and various other factors. Through advanced algorithms and programming techniques, we're striving to simulate the intricacies of real-world driving dynamics. The way you drive each car will influence its behavior, allowing for a dynamic and engaging experience that evolves with your driving style.
+In our simulator, every car will behave differently based on engine placement, drivetrain type and weight distribution. Through advanced algorithms and programming techniques, we're striving to simulate the intricacies of real-world driving dynamics. The way each car is set up will influence its behavior, allowing for a dynamic and engaging experience that evolves with your driving style, as well as showcases the pros and cons of each main drivetrain type and weight distribution.
 
-We're dedicated to delivering a realistic and enjoyable driving simulation that caters to both casual players and enthusiasts alike.
+We're dedicated to delivering a realistic and enjoyable driving simulation that caters to both casual players and enthusiasts alike as well as clearly showcases the differences in car behavior based on the setup the player goes with.
 
 ## Features
 
