@@ -358,6 +358,10 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/CarController.cs"
+"Assets/City Props/Building2/DemoScene/FlyCamera.cs"
+"Assets/City Props/Building2/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs"
+"Assets/City Props/Building2/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs"
+"Assets/City Props/Building2/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs"
 -langversion:9.0
 
 /deterministic

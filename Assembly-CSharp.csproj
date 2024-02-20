@@ -64,19 +64,27 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/City Props/Building2/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs" />
     <Compile Include="Assets/CarController.cs" />
+    <Compile Include="Assets/City Props/Building2/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs" />
+    <Compile Include="Assets/City Props/Building2/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs" />
+    <Compile Include="Assets/City Props/Building2/DemoScene/FlyCamera.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/EasyRoads3D/lib/DelaunayER.dll" />
     <None Include="Assets/EasyRoads3D/SRP Support Packages/_Readme.txt" />
     <None Include="Assets/EasyRoads3D/Resources/custom prefabs/_custom prefabs.txt" />
     <None Include="Assets/EasyRoads3D/prefab meshes/_custom prefabs.txt" />
+    <None Include="Assets/City Props/Street Signs/Standard 2 Sided.shader" />
+    <None Include="Assets/City Props/Building2/Standard Assets/Effects/ImageEffects/Shaders/SunShaftsComposite.shader" />
     <None Include="Assets/EasyRoads3D/Quick Start.txt" />
     <None Include="Assets/EasyRoads3D/lib/EasyRoads3Dv3.dll" />
     <None Include="Assets/EasyRoads3D/_readme .txt" />
+    <None Include="Assets/City Props/Building2/Standard Assets/Effects/ImageEffects/Shaders/SimpleClear.shader" />
     <None Include="Assets/EasyRoads3D/shaders/ER Surface.shader" />
     <None Include="Assets/EasyRoads3D/shaders/ER Road.shader" />
     <None Include="Assets/EasyRoads3D/shaders/ER Road Transparency.shader" />
+    <None Include="Assets/City Props/Street Signs/Readme.txt" />
     <None Include="Assets/EasyRoads3D/Resources/dynamic prefabs/dynamic prefabs.txt" />
     <None Include="Assets/EasyRoads3D/prefab sources/_custom prefabs.txt" />
     <None Include="Assets/EasyRoads3D/_Release Notes.txt" />
