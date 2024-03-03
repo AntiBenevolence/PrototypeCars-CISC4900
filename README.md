@@ -15,11 +15,11 @@
     
 ## About
 
-Our project is a collaborative effort by a group of four programmers who are passionate about creating a realistic driving simulator. Our aim is to develop a simulator that offers an immersive experience with a variety of cars, each meticulously crafted to have its own unique handling and feel.
+Our project is a collaborative effort by a group of four programmers who are passionate about creating a realistic driving simulator. We aim to develop a simulator that offers an immersive experience with a variety of cars, each meticulously crafted to have its unique handling and feel.
 
-In our simulator, every car will behave differently based on engine placement, drivetrain type and weight distribution. Through advanced algorithms and programming techniques, we're striving to simulate the intricacies of real-world driving dynamics. The way each car is set up will influence its behavior, allowing for a dynamic and engaging experience that evolves with your driving style, as well as showcases the pros and cons of each main drivetrain type and weight distribution.
+In our simulator, every car will behave differently based on engine placement, drivetrain type, and weight distribution. Through advanced algorithms and programming techniques, we're striving to simulate the intricacies of real-world driving dynamics. The way each car is set up will influence its behavior, allowing for a dynamic and engaging experience that evolves with your driving style, as well as showcasing the pros and cons of each main drivetrain type and weight distribution.
 
-We're dedicated to delivering a realistic and enjoyable driving simulation that caters to both casual players and enthusiasts alike as well as clearly showcases the differences in car behavior based on the setup the player goes with.
+We're dedicated to delivering a realistic and enjoyable driving simulation that caters to both casual players and enthusiasts alike as well as showcases the differences in car behavior based on the setup the player goes with.
 
 ## Features
 
@@ -36,13 +36,13 @@ Our driving simulator will boast a range of features designed to enhance your ga
 
 ## Usage
 
-Our driving simulator project serves as a robust foundation for developers looking to implement a realistic driving mechanic in their own games. Whether you're working on a small indie project or a large-scale AAA title, our simulator provides a solid framework that you can build upon to achieve lifelike driving dynamics.
+Our driving simulator project serves as a robust foundation for developers looking to implement a realistic driving mechanic in their games. Whether you're working on a small indie project or a large-scale AAA title, our simulator provides a solid framework that you can build upon to achieve lifelike driving dynamics.
 
 By studying our codebase and understanding the algorithms and techniques employed, developers can gain valuable insights into simulating realistic vehicle behavior. From handling physics to car customization features, our project offers a wealth of resources that can be adapted and integrated into a wide range of driving games.
 
 Utilize our project as a reference, leverage our code snippets, and tailor them to suit your specific requirements. With our driving simulator as your foundation, you'll be well-equipped to create captivating driving experiences that resonate with players.
 
-Feel free to explore, experiment, and innovate with our project, and let your creativity drive you towards crafting the next generation of immersive driving games.
+Feel free to explore, experiment, and innovate with our project, and let your creativity drive you toward crafting the next generation of immersive driving games.
 
 
 ## Installation
@@ -63,10 +63,10 @@ This project is not licensed. Feel free to use the code and assets as you see fi
 
 This project was made possible thanks to the contributions of the following individuals:
 
-- **[Charles Dubreuil](https://github.com/AntiBenevolence)** - Level Designer / UI Designer 
-- **[Daniil Sofin](https://github.com/Danich333)** - Gameplay Designer / Graphics Designer 
-- **[Kevin Hamilton](https://github.com/TiBlann)** - Gameplay Designer / Graphics Designer
-- **[Khalid Shams](https://github.com/khalidshams1990)** - Level Designer / UI Designer
+- **[Charles Dubreuil](https://github.com/AntiBenevolence)** - Level Designer / Gameplay Designer 
+- **[Daniil Sofin](https://github.com/Danich333)** - Graphics Designer / Physics Programmer 
+- **[Kevin Hamilton](https://github.com/TiBlann)** - UI Designer / Gameplay Designer
+- **[Khalid Shams](https://github.com/khalidshams1990)** - Website Designer / Advertiser
 
 Special thanks to all the developers whose libraries, frameworks, and resources were used in the development of this project.
 
