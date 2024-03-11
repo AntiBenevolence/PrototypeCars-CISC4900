@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{649409DA-62AD-F336-4A95-28F31C5D857C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadArchitect", "RoadArchitect.csproj", "{5AE2923E-48B5-4472-BD68-D3B4E00BC215}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{0DB4EDB5-C871-AD3E-D370-49625D330C0C}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{649409DA-62AD-F336-4A95-28F31C5D857C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{649409DA-62AD-F336-4A95-28F31C5D857C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{649409DA-62AD-F336-4A95-28F31C5D857C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE2923E-48B5-4472-BD68-D3B4E00BC215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE2923E-48B5-4472-BD68-D3B4E00BC215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE2923E-48B5-4472-BD68-D3B4E00BC215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE2923E-48B5-4472-BD68-D3B4E00BC215}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0DB4EDB5-C871-AD3E-D370-49625D330C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0DB4EDB5-C871-AD3E-D370-49625D330C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DB4EDB5-C871-AD3E-D370-49625D330C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
