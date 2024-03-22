@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53110
+54421
 Successfully changed project path to: /Users/charlesdubreuil/Desktop/PrototypeCars-CISC4900
 /Users/charlesdubreuil/Desktop/PrototypeCars-CISC4900
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Successfully changed project path to: /Users/charlesdubreuil/Desktop/PrototypeCa
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704611650432] Host "[IP] 192.168.1.148 [Port] 0 [Flags] 2 [Guid] 3304656556 [EditorId] 3304656556 [Version] 1048832 [Id] OSXEditor(0,Charless-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704712706944] Host "[IP] 10.81.19.159 [Port] 0 [Flags] 2 [Guid] 3054685473 [EditorId] 3054685473 [Version] 1048832 [Id] OSXEditor(0,Charless-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704611650432] Host "[IP] 192.168.1.148 [Port] 0 [Flags] 2 [Guid] 3304656556 [EditorId] 3304656556 [Version] 1048832 [Id] OSXEditor(0,Charless-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704712706944] Host "[IP] 10.81.19.159 [Port] 0 [Flags] 2 [Guid] 3054685473 [EditorId] 3054685473 [Version] 1048832 [Id] OSXEditor(0,Charless-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 23.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.01 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.18f1 (d29bea25151d)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,15 +76,15 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56654
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56151
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.18f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014385 seconds.
-- Loaded All Assemblies, in  0.739 seconds
+Registered in 0.005632 seconds.
+- Loaded All Assemblies, in  0.847 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
@@ -93,36 +93,36 @@ Native extension for iOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.588 seconds
-Domain Reload Profiling: 1327ms
-	BeginReloadAssembly (213ms)
+- Finished resetting the current domain, in  1.229 seconds
+Domain Reload Profiling: 2077ms
+	BeginReloadAssembly (256ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (77ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (98ms)
-	LoadAllAssembliesAndSetupDomain (325ms)
-		LoadAssemblies (215ms)
+	RebuildCommonClasses (91ms)
+	RebuildNativeTypeToScriptingClass (39ms)
+	initialDomainReloadingComplete (123ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (256ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (319ms)
-			TypeCache.Refresh (315ms)
-				TypeCache.ScanAssembly (278ms)
+		AnalyzeDomain (334ms)
+			TypeCache.Refresh (330ms)
+				TypeCache.ScanAssembly (304ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (588ms)
+	FinalizeReload (1230ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (458ms)
+		SetupLoadedEditorAssemblies (1079ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (139ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (222ms)
+			SetLoadedEditorAssemblies (16ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (237ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (721ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -130,1226 +130,66 @@ Domain Reload Profiling: 1327ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.392 seconds
-Refreshing native plugins compatible for Editor in 2.77 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.657 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Package Manager log level set to [2]
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.517 seconds
-Domain Reload Profiling: 3910ms
-	BeginReloadAssembly (241ms)
+- Finished resetting the current domain, in  1.297 seconds
+Domain Reload Profiling: 1954ms
+	BeginReloadAssembly (382ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (32ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (25ms)
-	initialDomainReloadingComplete (71ms)
-	LoadAllAssembliesAndSetupDomain (985ms)
-		LoadAssemblies (653ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (127ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (54ms)
+		LoadAssemblies (174ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (447ms)
-			TypeCache.Refresh (393ms)
-				TypeCache.ScanAssembly (354ms)
-			ScanForSourceGeneratedMonoScriptInfo (36ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (2518ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (36ms)
+				TypeCache.ScanAssembly (12ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1298ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2064ms)
+		SetupLoadedEditorAssemblies (836ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (67ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			SetLoadedEditorAssemblies (19ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (133ms)
-			ProcessInitializeOnLoadAttributes (1787ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (558ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.18 seconds
-Refreshing native plugins compatible for Editor in 3.57 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.22 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (1.3 MB). Loaded Objects now: 3875.
-Memory consumption went from 174.5 MB to 173.1 MB.
-Total: 11.304447 ms (FindLiveObjects: 0.647697 ms CreateObjectMapping: 0.715227 ms MarkObjects: 9.051927 ms  DeleteObjects: 0.887453 ms)
+Unloading 125 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (43.4 KB). Loaded Objects now: 617.
+Memory consumption went from 80.4 MB to 80.3 MB.
+Total: 5.424230 ms (FindLiveObjects: 0.172984 ms CreateObjectMapping: 0.013974 ms MarkObjects: 5.093413 ms  DeleteObjects: 0.142323 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 42376.956185 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(2ebf1332c0f024b6688e87a6beb2aa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(2ebf1332c0f024b6688e87a6beb2aa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ac320b206b2467e9c5c3ac4301d324') in 0.036816 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 123.892409 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/396/35mphZoneAheadDiffuse.png
-  artifactKey: Guid(7ddef1bbecb1c624797848d37f848de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/396/35mphZoneAheadDiffuse.png using Guid(7ddef1bbecb1c624797848d37f848de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1755b8bcf61181fa3311b483ddb58401') in 0.072151 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/617/182Diffuse.png
-  artifactKey: Guid(350b7bf75d9a7264fb9d7b69b0c9c772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/617/182Diffuse.png using Guid(350b7bf75d9a7264fb9d7b69b0c9c772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a4b69638c1e480a03afd2317947637') in 0.019348 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/617/156Diffuse.png
-  artifactKey: Guid(14c18af93a71f7d49b22f23cf2215478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/617/156Diffuse.png using Guid(14c18af93a71f7d49b22f23cf2215478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6462847d1f5fb64a6e307a2f32ac9003') in 0.011287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/Square/Advise35Diffuse.png
-  artifactKey: Guid(ab470c7ed0e53af48a27d2f5ee6da218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/Square/Advise35Diffuse.png using Guid(ab470c7ed0e53af48a27d2f5ee6da218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a862bd95df91d5e991ded9d9b6e1cd4b') in 0.014669 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/617/122NJDiffuse.png
-  artifactKey: Guid(2f40667cbe1f63e40afd2b2141fd09f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/617/122NJDiffuse.png using Guid(2f40667cbe1f63e40afd2b2141fd09f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9542be3010c6f3c1906ca8be1adb3b74') in 0.012877 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/617/AR150sDiffuse.png
-  artifactKey: Guid(4dc893e67df22494db1269924944e160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/617/AR150sDiffuse.png using Guid(4dc893e67df22494db1269924944e160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27521b6ab144ce3d9368fa6c4dca01ca') in 0.013411 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Scenes/Background Pictures/AboutUsBackground.jpg
-  artifactKey: Guid(5cdf9f7671fb43b43a215601bd60fe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Background Pictures/AboutUsBackground.jpg using Guid(5cdf9f7671fb43b43a215601bd60fe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24caef76cfce86d7b4fcf73bbbbbdbe') in 0.110215 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.740479 seconds.
-  path: Assets/RoadArchitect/Editor/Library/Thumbs/Arch24m.png
-  artifactKey: Guid(f563a9be794e77243a61147626829b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Editor/Library/Thumbs/Arch24m.png using Guid(f563a9be794e77243a61147626829b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ebc48373a0f07d63ffa05192a10a2b5') in 0.012929 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.049909 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/Square/Ark8Diffuse.png
-  artifactKey: Guid(8387f565a06efe24c9ae486241e8b666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/Square/Ark8Diffuse.png using Guid(8387f565a06efe24c9ae486241e8b666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3348722878366acdef93f560253257d') in 0.018114 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.053166 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Details/BushDry_Normal.tif
-  artifactKey: Guid(03fe3ff010bcfb3418536e2f7896257b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Details/BushDry_Normal.tif using Guid(03fe3ff010bcfb3418536e2f7896257b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9342d680763b05f0f5ccce0cf4344f') in 0.025608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Heightmaps/Canyon03_Heightmap.tif
-  artifactKey: Guid(00e07f21ff32c094ea64f6753fb3b542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Heightmaps/Canyon03_Heightmap.tif using Guid(00e07f21ff32c094ea64f6753fb3b542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e9b66f0e749ef57bfff6d07645bdfa') in 0.023713 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Heightmaps/Canyon02_Heightmap.tif
-  artifactKey: Guid(4fe4d3241d435594b82a72af96e4052d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Heightmaps/Canyon02_Heightmap.tif using Guid(4fe4d3241d435594b82a72af96e4052d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a358e56b936cce0b958239e64083277') in 0.022320 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/RoadArchitect/Editor/Library/Thumbs/CableBarrier.png
-  artifactKey: Guid(1c5291485e5cf344b8f6b59dce33fb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Editor/Library/Thumbs/CableBarrier.png using Guid(1c5291485e5cf344b8f6b59dce33fb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6f79de06ae4975906ef38087a85aad') in 0.023616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/330/BusStopNoParkingDiffuse.png
-  artifactKey: Guid(b722ee359d7377b4e81c00660b9ba4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/330/BusStopNoParkingDiffuse.png using Guid(b722ee359d7377b4e81c00660b9ba4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d38e5ce10a010888fab080fab7ef2a') in 0.015682 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/RoadArchitect/Editor/Library/Thumbs/Causeway2.png
-  artifactKey: Guid(288e3b5c577a59048807ce1a0e39d6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Editor/Library/Thumbs/Causeway2.png using Guid(288e3b5c577a59048807ce1a0e39d6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203b1d8021a0b978b7d365559be8e721') in 0.011604 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/RoadArchitect/Textures/Concrete1Normal.png
-  artifactKey: Guid(22d0cc126934f7f409a041ff8af97712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Concrete1Normal.png using Guid(22d0cc126934f7f409a041ff8af97712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b2284b29cf4b0744b51433e58f5bf2') in 0.009402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/RoadArchitect/Textures/Concrete6Normal.png
-  artifactKey: Guid(dfd2e27a0f7b80649afc79a1c96f4590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Concrete6Normal.png using Guid(dfd2e27a0f7b80649afc79a1c96f4590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0dadfe127a635b945d8d2ae62db682') in 0.010619 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/RoadArchitect/Textures/Concrete2Diffuse.png
-  artifactKey: Guid(e609541c9e63cf8428a308c2f38daee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Concrete2Diffuse.png using Guid(e609541c9e63cf8428a308c2f38daee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47aeda27d3fa53a29cfe3ebefee32f5d') in 0.010314 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/RoadArchitect/Textures/Concrete3Normal.png
-  artifactKey: Guid(59526a9a5e2028243a5e6e743e30b421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Concrete3Normal.png using Guid(59526a9a5e2028243a5e6e743e30b421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636df9692ee0204c1b56e724d2ff337d') in 0.011078 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/RoadArchitect/Textures/Concrete8Normal.png
-  artifactKey: Guid(9c660d7b09b8bc34aa482dfc7a14f096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Concrete8Normal.png using Guid(9c660d7b09b8bc34aa482dfc7a14f096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5dcbead3bc4491065593b012c56076') in 0.014737 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/RoadArchitect/Textures/Concrete9Normal.png
-  artifactKey: Guid(1f2a48ccf76ddd7438aa2816e5009b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Concrete9Normal.png using Guid(1f2a48ccf76ddd7438aa2816e5009b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed45d9edea274f7ca18cb6e885975187') in 0.010909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/RoadArchitect/Textures/Concrete11Diffuse.png
-  artifactKey: Guid(b64806282f5b15d49a0da42e4c76bd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Concrete11Diffuse.png using Guid(b64806282f5b15d49a0da42e4c76bd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0681bf3606bd74bd8aff6c9b6fefb070') in 0.011864 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/RoadArchitect/Textures/Concrete10Diffuse.png
-  artifactKey: Guid(50fddc63c61384c4da0536758d3b5da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Concrete10Diffuse.png using Guid(50fddc63c61384c4da0536758d3b5da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ac2b01893e3a952df904c49fa12e7a') in 0.015217 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/RoadArchitect/Textures/Concrete1Diffuse.png
-  artifactKey: Guid(6b70510c1c67f4449b638b58a83aa783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Concrete1Diffuse.png using Guid(6b70510c1c67f4449b638b58a83aa783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f08538ed22c0026535ce51afa2765b') in 0.013255 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/RoadArchitect/Textures/Concrete7Normal.png
-  artifactKey: Guid(d68fab7a6c68a5a428a54ba7621fccb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Concrete7Normal.png using Guid(d68fab7a6c68a5a428a54ba7621fccb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3199dc3cb83f1ad54f9101c82fc82a5b') in 0.010422 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/396/CrosswalkDiffuse.png
-  artifactKey: Guid(8289b655e9653fe4dbb5f8a133eaebba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/396/CrosswalkDiffuse.png using Guid(8289b655e9653fe4dbb5f8a133eaebba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86309e490c442e90c9171a5abbc32528') in 0.015169 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/RoadArchitect/Textures/Concrete4Diffuse.png
-  artifactKey: Guid(71c1b6c253b5bdf4fae4d4346dde9a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Concrete4Diffuse.png using Guid(71c1b6c253b5bdf4fae4d4346dde9a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5abf4410925bc4a3c55025ed0620d80') in 0.012279 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/RoadArchitect/Textures/Concrete6Diffuse.png
-  artifactKey: Guid(8a1997d879eb2824cbea3c64868e25ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Concrete6Diffuse.png using Guid(8a1997d879eb2824cbea3c64868e25ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35fc0da866249fde1acb806a4da6561') in 0.014475 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000475 seconds.
-  path: Assets/RoadArchitect/Editor/Icons/copy.png
-  artifactKey: Guid(44906754f3a9e8049a8951bb0a0bb946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Editor/Icons/copy.png using Guid(44906754f3a9e8049a8951bb0a0bb946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e9b9dddb50f0d48554d5bcff50043b') in 0.012964 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.005534 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/330/CrossOnlyCrosswalkDiffuse.png
-  artifactKey: Guid(5b425d2c5f7304041b4d905bbc7448e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/330/CrossOnlyCrosswalkDiffuse.png using Guid(5b425d2c5f7304041b4d905bbc7448e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2f7d925cf304104886a6f2a51b45d3') in 0.012422 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.001170 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Heightmaps/Canyon04_Heightmap.tif
-  artifactKey: Guid(fd3a283142a57bd4aa8029f5e0705fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Heightmaps/Canyon04_Heightmap.tif using Guid(fd3a283142a57bd4aa8029f5e0705fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab08cd581ddb40cb00cb952a48e82dc') in 0.016492 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.001345 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Heightmaps/Canyon05_Heightmap.tif
-  artifactKey: Guid(3771b24b1afb4bd4d86e3ba795b65a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Heightmaps/Canyon05_Heightmap.tif using Guid(3771b24b1afb4bd4d86e3ba795b65a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c728788b1de810500fbe5af41076949') in 0.041553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.566936 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
-  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9690deda7717e452078977974286498') in 0.009784 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Heightmaps/Default_White.tif
-  artifactKey: Guid(63c633526981fac49b5eb44c0212bf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Heightmaps/Default_White.tif using Guid(63c633526981fac49b5eb44c0212bf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d8def728ebb28d4f355dbf2677e320') in 0.007625 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.043423 seconds.
-  path: Assets/RoadArchitect/Editor/Icons/delete.png
-  artifactKey: Guid(39aa89e98624ac34aa46e184a83407b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Editor/Icons/delete.png using Guid(39aa89e98624ac34aa46e184a83407b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09559b3e608fdf001ff7ae653c26077e') in 0.010476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.022261 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/617/DividedHighwayDiffuse.png
-  artifactKey: Guid(365725527011e1a4a9b20f0612a19feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/617/DividedHighwayDiffuse.png using Guid(365725527011e1a4a9b20f0612a19feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ae017636a3ae3d2473bb7064c36f7d') in 0.016075 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/396/DoNotDriveShoulderDiffuse.png
-  artifactKey: Guid(c700454b62310b54cbc21691c8577d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/396/DoNotDriveShoulderDiffuse.png using Guid(c700454b62310b54cbc21691c8577d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bb4d665cc11b21b6e6149b2ad886ca') in 0.012935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/396/DoNotPassShoulderDiffuse.png
-  artifactKey: Guid(9a2839ea9bfaa6f48848ec51dd5f2088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/396/DoNotPassShoulderDiffuse.png using Guid(9a2839ea9bfaa6f48848ec51dd5f2088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e56ceda99827b8b2d3143c4e62fa3c') in 0.013255 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.002415 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/617/DoubleRightDiffuse.png
-  artifactKey: Guid(6a1ab516c8b7fa84aa15de866a3a1668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/617/DoubleRightDiffuse.png using Guid(6a1ab516c8b7fa84aa15de866a3a1668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afeebf8dfa49e5c440be156a2ccff3b2') in 0.010406 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/RoadArchitect/ManualImages/edge.png
-  artifactKey: Guid(9ab3ea064ccecee4797d66c01cc82753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/ManualImages/edge.png using Guid(9ab3ea064ccecee4797d66c01cc82753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5798570a522feade8c8febaf47b32a58') in 0.007022 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.026204 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/Square/EisenhowerDiffuse.png
-  artifactKey: Guid(893991a79228a704080038be23ea942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/Square/EisenhowerDiffuse.png using Guid(893991a79228a704080038be23ea942b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952099037fcb4a2b0cdb9ab8465467e2') in 0.011911 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1488cee92fe677f0f95433d4fb6574') in 0.016529 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/988/EndRoadWorkDiffuse.png
-  artifactKey: Guid(a911796b3318e954bbda86f7c853a776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/988/EndRoadWorkDiffuse.png using Guid(a911796b3318e954bbda86f7c853a776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd4b5b5246f04e71db4fd185abc6bff') in 0.011494 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Heightmaps/Errosion02_Heightmap.tif
-  artifactKey: Guid(8d909223d66b7cd4d9719d37ee403dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Heightmaps/Errosion02_Heightmap.tif using Guid(8d909223d66b7cd4d9719d37ee403dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b250407288c3062e9dd0ea58a7077ba0') in 0.020372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.031395 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/617/ExceptSundaysAndHolidaysDiffuse.png
-  artifactKey: Guid(35480ca07c1731541a0d90d42cc075b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/617/ExceptSundaysAndHolidaysDiffuse.png using Guid(35480ca07c1731541a0d90d42cc075b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7281b4ef6acdda91261e8244b90c6d') in 0.016144 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/396/Exit25mphDiffuse.png
-  artifactKey: Guid(43d6bf5af35a54a46849a104591eb839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/396/Exit25mphDiffuse.png using Guid(43d6bf5af35a54a46849a104591eb839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1ca4fc066389c2bc27725cba46ad03') in 0.010390 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.516149 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/617/Exit44Diffuse.png
-  artifactKey: Guid(1327b2ca5dd5eba4196bd1099f9744a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/617/Exit44Diffuse.png using Guid(1327b2ca5dd5eba4196bd1099f9744a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c926569a6ca4055c3addb54eb80c10') in 0.017164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.079977 seconds.
-  path: Assets/RoadArchitect/ManualImages/extrude.png
-  artifactKey: Guid(7ac11a0949650ef48a917ecaca2e8618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/ManualImages/extrude.png using Guid(7ac11a0949650ef48a917ecaca2e8618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8553cc421f2e6fd61fca9469068b834') in 0.006359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/RoadArchitect/Editor/Icons/FlexBG.png
-  artifactKey: Guid(a9d72dffda9366d48accc6bb0e540d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Editor/Icons/FlexBG.png using Guid(a9d72dffda9366d48accc6bb0e540d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b2254c51f6d3e85fd7205b2dddef9b') in 0.017828 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Details/Fern_MaskMap.tif
-  artifactKey: Guid(d5a7b708862dd0a449b4bccbefdd2335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Details/Fern_MaskMap.tif using Guid(d5a7b708862dd0a449b4bccbefdd2335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fde9c4f68d354fd135764daae4decb') in 0.027673 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
-  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c221c04bf0b351be787a331f1d523f') in 0.112717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/RoadArchitect/Textures/Galv3Diffuse.png
-  artifactKey: Guid(2a6bb1307a838ca4b8ed0c78cf2c12ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Galv3Diffuse.png using Guid(2a6bb1307a838ca4b8ed0c78cf2c12ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857cb286536db0451d24aaacaf3ed8c1') in 0.013780 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
-  artifactKey: Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg using Guid(6eb184de103d4b3f812b38561065192f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a4e755ac5fdcbcee1aef2cabddd365') in 0.007174 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
-  artifactKey: Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg using Guid(2ce5c55e85304b819a1826ecbc839aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f9189cde467d1e071e40b7b5113be1') in 0.011950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/RoadArchitect/Textures/Galv2Normal.png
-  artifactKey: Guid(581ce5b0bdf95c9478367dc2c3eb85f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Galv2Normal.png using Guid(581ce5b0bdf95c9478367dc2c3eb85f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d24d7f790919613a660d9a1e88d5d7') in 0.012114 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Details/Grass_A_BaseColor.tif
-  artifactKey: Guid(9bf68c6e5059e7549b60e91ca11987a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Details/Grass_A_BaseColor.tif using Guid(9bf68c6e5059e7549b60e91ca11987a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905cd8e0c48a37169cfebac075f66ed6') in 0.014755 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Grass_A_Normal.tif
-  artifactKey: Guid(a8a2fc863627f464e838ba616a1d5789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Grass_A_Normal.tif using Guid(a8a2fc863627f464e838ba616a1d5789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747add3602abc1380233e281308eeebc') in 0.025981 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8756f7c291147a75e95d0f4a0d9e7e56') in 0.018994 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
-  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce95457c3e2b080a97292575a23b598d') in 0.013701 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/RoadArchitect/Textures/Galv3Normal.png
-  artifactKey: Guid(faaace2a00fa5bf45a2eebd152521415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Galv3Normal.png using Guid(faaace2a00fa5bf45a2eebd152521415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45853ad4ab19854397185ac8314b221') in 0.014289 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/RoadArchitect/Textures/Galv5Diffuse.png
-  artifactKey: Guid(00c34ffe52c7f5c4ba3a1724043b1ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Galv5Diffuse.png using Guid(00c34ffe52c7f5c4ba3a1724043b1ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a80c775f3a651b3ef1b96c80e95917') in 0.013137 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/RoadArchitect/ManualImages/FlexBG.png
-  artifactKey: Guid(8956dca5820eff146bb0f40d137080bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/ManualImages/FlexBG.png using Guid(8956dca5820eff146bb0f40d137080bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fb4fe7bb8e715da1abc2b48bc7b762') in 0.008164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Grass_A_MaskMap.tif
-  artifactKey: Guid(bd4c61d030690814097a2076498d1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Grass_A_MaskMap.tif using Guid(bd4c61d030690814097a2076498d1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692046ed63016538c358980f58564af4') in 0.021184 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.294192 seconds.
-  path: Assets/RoadArchitect/Textures/Signs/SignYieldOnGreenDiffuse.png
-  artifactKey: Guid(70771558d8162a843ae0fdb3eefd5c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Signs/SignYieldOnGreenDiffuse.png using Guid(70771558d8162a843ae0fdb3eefd5c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a53aa5dc725ba86345634e8f162130') in 0.008896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/Diamond/General/YellowDowngrade8Diffuse.png
-  artifactKey: Guid(3eb7711b65482244a90c6e59d9028060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/Diamond/General/YellowDowngrade8Diffuse.png using Guid(3eb7711b65482244a90c6e59d9028060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3dadec69b857e2b9401201e5ca955ba') in 0.014724 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/Diamond/General/YellowFallingRockDiffuse.png
-  artifactKey: Guid(7856295332c44cb4bb8734c05b1648df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/Diamond/General/YellowFallingRockDiffuse.png using Guid(7856295332c44cb4bb8734c05b1648df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4187fe52f113ebee39bff8221273fb43') in 0.034042 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/Diamond/General/YellowDowngradeDiffuse.png
-  artifactKey: Guid(76f75b14240040d45b0618e60fe9d723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/Diamond/General/YellowDowngradeDiffuse.png using Guid(76f75b14240040d45b0618e60fe9d723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbee73020f69453be5a215ce712ee0a6') in 0.020697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.225143 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Grass_Soil_MaskMap.tif
-  artifactKey: Guid(61a6ad6be0be2b444addf88107c0fda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Grass_Soil_MaskMap.tif using Guid(61a6ad6be0be2b444addf88107c0fda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ecb86635741e1317ad3bae2b3393897') in 0.017020 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Details/GrassDry_MaskMap.tif
-  artifactKey: Guid(d3cf4500414007c4c895584cfcf1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Details/GrassDry_MaskMap.tif using Guid(d3cf4500414007c4c895584cfcf1fbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce02ca0ace5dd91e7dc685c3bc6285b') in 0.017357 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Details/GrassDry_Thickness.tif
-  artifactKey: Guid(77efac6da14b90f48895b89d90b5ef3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Details/GrassDry_Thickness.tif using Guid(77efac6da14b90f48895b89d90b5ef3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f22e731db2e0f31764830388057f1f5') in 0.021147 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.001496 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Details/GrassDry_BaseColor.tif
-  artifactKey: Guid(3785d5abd275c7147a10aa4bf8720df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Details/GrassDry_BaseColor.tif using Guid(3785d5abd275c7147a10aa4bf8720df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc385057ed3d29c95e7303f56f6e76f') in 0.016648 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.144151 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Grass_Moss_MaskMap.tif
-  artifactKey: Guid(2d41276a33f8bc949b93fed615e212c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Grass_Moss_MaskMap.tif using Guid(2d41276a33f8bc949b93fed615e212c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e023115683be6abc92c208967d9b02e') in 0.016483 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.403830 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Grass_Dry_MaskMap.tif
-  artifactKey: Guid(9f2c593ad6e69ad4ab880e57ce9b69d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Grass_Dry_MaskMap.tif using Guid(9f2c593ad6e69ad4ab880e57ce9b69d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc88a115bb90d468373dea7df51617d') in 0.031665 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Grass_Dry_Normal.tif
-  artifactKey: Guid(d835c61db4c94444eabef9cf95e8a7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Grass_Dry_Normal.tif using Guid(d835c61db4c94444eabef9cf95e8a7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee3fdbd19e2b20ab164defd0c7e6c5e') in 0.027939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.065424 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Details/Grass_C_Normal.tif
-  artifactKey: Guid(ec6838d3bd80287449a69dc40380ebc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Details/Grass_C_Normal.tif using Guid(ec6838d3bd80287449a69dc40380ebc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c134a49e15fc1cde9b1a83570bcd5e69') in 0.021624 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Details/Grass_C_Thickness.tif
-  artifactKey: Guid(5ac60e8e8739b1f4daeb70e1c662df49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Details/Grass_C_Thickness.tif using Guid(5ac60e8e8739b1f4daeb70e1c662df49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57232e993ff27064bc311ece8bd926d8') in 0.027459 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.339705 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Grass_B_Normal.tif
-  artifactKey: Guid(eb70932bab3d971408c011dbb45767a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Grass_B_Normal.tif using Guid(eb70932bab3d971408c011dbb45767a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a4ca3495b99f12a9b5af84bc629be2') in 0.020857 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.797828 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Grass_B_BaseColor.tif
-  artifactKey: Guid(e318f31bebce62d48a648da3f8ba56c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Grass_B_BaseColor.tif using Guid(e318f31bebce62d48a648da3f8ba56c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703aa57e3b1092435fa862c84b14a080') in 0.027827 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 131.165680 seconds.
-  path: Assets/RoadArchitect/Editor/Library/Thumbs/Atten.png
-  artifactKey: Guid(8146d4d4e0b298647ac731a6fad2c0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Editor/Library/Thumbs/Atten.png using Guid(8146d4d4e0b298647ac731a6fad2c0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744f09d24809596c6f8131954b58d89c') in 0.022317 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/396/AxleWeightLimit5TonsDiffuse.png
-  artifactKey: Guid(ed4f78b0f51a87a44bf2bb033bb97a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/396/AxleWeightLimit5TonsDiffuse.png using Guid(ed4f78b0f51a87a44bf2bb033bb97a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a045b2c8295b5a0871699d44999162d') in 0.034725 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/617/AuthVehiclesOnlyDiffuse.png
-  artifactKey: Guid(9f01264a42c04504e99679d8cb33b3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/617/AuthVehiclesOnlyDiffuse.png using Guid(9f01264a42c04504e99679d8cb33b3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d199ceecb62fdfce4d2c3c4062e293') in 0.033180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/617/BikeLaneDiffuse.png
-  artifactKey: Guid(3e7697ebcd7ca4b4abdb6b6529c278e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/617/BikeLaneDiffuse.png using Guid(3e7697ebcd7ca4b4abdb6b6529c278e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbdf012fa256676fdb8e75bb3fb6e66') in 0.020391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Black_Sand_Normal.tif
-  artifactKey: Guid(28a478660ea9d9541b2118c5e95cbb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Black_Sand_Normal.tif using Guid(28a478660ea9d9541b2118c5e95cbb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5c7632f145b9ce2bb9134058479b95') in 0.026902 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/330/BridgeSpeed15Diffuse.png
-  artifactKey: Guid(6e7a0da43483fe445b9275b1a36996c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/330/BridgeSpeed15Diffuse.png using Guid(6e7a0da43483fe445b9275b1a36996c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79cf4f23fd46807ba80ca06ab4b7b28b') in 0.011977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Details/Bush_A_MaskMap.tif
-  artifactKey: Guid(0e1771a5cd057014db71494d5a458d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Details/Bush_A_MaskMap.tif using Guid(0e1771a5cd057014db71494d5a458d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b7715847e6b0409ad7579b69d5a74c') in 0.011387 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/Square/BikeMayUseFullLaneDiffuse.png
-  artifactKey: Guid(d06511c8f7a8b214ca218cd4d94701be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/Square/BikeMayUseFullLaneDiffuse.png using Guid(d06511c8f7a8b214ca218cd4d94701be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2809a5c4fe2352d2bf7ad6725707caa9') in 0.013635 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Details/Bush_A_BaseColor.tif
-  artifactKey: Guid(eb04da16cbc16c9488332336fb11b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Details/Bush_A_BaseColor.tif using Guid(eb04da16cbc16c9488332336fb11b965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5b0d1d342f6a7870f04c8cbf7f5ca3') in 0.012717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Details/BushDry_BaseColor.tif
-  artifactKey: Guid(a366a386d5147ee47b6111652608c240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Details/BushDry_BaseColor.tif using Guid(a366a386d5147ee47b6111652608c240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd26be5f5264ae78fbe4fc36b2b3219c') in 0.013700 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.005158 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/Square/Circle613Diffuse.png
-  artifactKey: Guid(c8af5ebe2eb76e340a7bb8393573679f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/Square/Circle613Diffuse.png using Guid(c8af5ebe2eb76e340a7bb8393573679f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fa75fe184bc030c48660a2601510f5') in 0.009529 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/RoadArchitect/Textures/CobblestoneRoadDiffuse.png
-  artifactKey: Guid(7bc8533c591d19c449434823291665e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/CobblestoneRoadDiffuse.png using Guid(7bc8533c591d19c449434823291665e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d40d4b24169f37ae8fc2096fbd774cc') in 0.018412 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.742293 seconds.
-  path: Assets/RoadArchitect/Textures/Signs/GreenBlinderDiffuse.png
-  artifactKey: Guid(64c979bc604479841aec5a9e706bb494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Signs/GreenBlinderDiffuse.png using Guid(64c979bc604479841aec5a9e706bb494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa8cb8534aba152ed0146da3ee04c71') in 0.016994 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/Diamond/General/GreenSchoolBusTurnAheadDiffuse.png
-  artifactKey: Guid(50a288f45854b294b9439182afd1d104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/Diamond/General/GreenSchoolBusTurnAheadDiffuse.png using Guid(50a288f45854b294b9439182afd1d104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc0c3145980f74a34956c8b2f1d837c') in 0.007797 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/RoadArchitect/Editor/Library/Thumbs/Group-Fancy1.png
-  artifactKey: Guid(b43a80f8dce0cbc46ab5c9773ceb9301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Editor/Library/Thumbs/Group-Fancy1.png using Guid(b43a80f8dce0cbc46ab5c9773ceb9301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c2672a6022cc5f1f37dcfdc88d62ed') in 0.013819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/RoadArchitect/Textures/Signs/GreenBlinderNormal.png
-  artifactKey: Guid(0b6fa8ba75912124bbfd84a993e09f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Signs/GreenBlinderNormal.png using Guid(0b6fa8ba75912124bbfd84a993e09f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13194e829f6c1c1232918294a6c4b360') in 0.008160 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.019756 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/Square/H1Diffuse.png
-  artifactKey: Guid(9b19d844a2329f448b8051078af86d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/Square/H1Diffuse.png using Guid(9b19d844a2329f448b8051078af86d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc2ee7ef2eaf208364d211141ad0152') in 0.007621 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/Square/H22Diffuse.png
-  artifactKey: Guid(9f13e9001df0ada429342f83006dd3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/Square/H22Diffuse.png using Guid(9f13e9001df0ada429342f83006dd3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f587fc9ecde6af2fad48f0b637f1ee6') in 0.009271 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Details/Heather_A_MaskMap.tif
-  artifactKey: Guid(2acdbd081c9f4e7448a4885ecf259aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Details/Heather_A_MaskMap.tif using Guid(2acdbd081c9f4e7448a4885ecf259aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5545a774c95ad856eb9f816c9043d05c') in 0.018118 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Heather_MaskMap.tif
-  artifactKey: Guid(240efe9002d9e7a44b9f2a592f357102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Heather_MaskMap.tif using Guid(240efe9002d9e7a44b9f2a592f357102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ddfe67b4090588dbc1bd7a63eebbb0') in 0.023540 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Heather_BaseColor.tif
-  artifactKey: Guid(87735acf16005914dba9087627517773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Heather_BaseColor.tif using Guid(87735acf16005914dba9087627517773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf385c586317a489a3c9d56b4baf490') in 0.021388 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/RoadArchitect/ManualImages/Extra/hdsign1.PNG
-  artifactKey: Guid(370ad430bdee53f418d7055a8ae80c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/ManualImages/Extra/hdsign1.PNG using Guid(370ad430bdee53f418d7055a8ae80c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da59444ead95ecd90b0c9ecdd970e52') in 0.008739 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/RoadArchitect/Textures/Markers/InterCenter-Both-2L-3.png
-  artifactKey: Guid(1f94c44a5fda6214e843c02279e7c7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Markers/InterCenter-Both-2L-3.png using Guid(1f94c44a5fda6214e843c02279e7c7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb1a9bd7d39f427a88eb5b18b1b242a') in 0.015104 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/330/HOVDiffuse.png
-  artifactKey: Guid(9b05da47f9565c549a2a2309dfb655aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/330/HOVDiffuse.png using Guid(9b05da47f9565c549a2a2309dfb655aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ac5f5eb59cac332da07aa0e1487a16') in 0.008726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/RoadArchitect/Textures/Markers/InterCenter-Both-4L.png
-  artifactKey: Guid(6c6fbf4d1847e7c4a9ea3685fc32f766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Markers/InterCenter-Both-4L.png using Guid(6c6fbf4d1847e7c4a9ea3685fc32f766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf2de0df0933b728f1f14829ee26866') in 0.012914 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Heightmaps/Hills01_Heightmap.tiff
-  artifactKey: Guid(0a9c4cb001d0620468e11a00fbe9e94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Heightmaps/Hills01_Heightmap.tiff using Guid(0a9c4cb001d0620468e11a00fbe9e94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c3ef8a4c2604c490b6d7c4a0565c87') in 0.023665 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/RoadArchitect/Textures/Markers/InterCenter-None-2L-3.png
-  artifactKey: Guid(989b516581743bc4484ab2e4042036de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Markers/InterCenter-None-2L-3.png using Guid(989b516581743bc4484ab2e4042036de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f49d65ec7942151fd4ae28f624192b') in 0.012833 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/RoadArchitect/Textures/Markers/InterCenter-None-4L.png
-  artifactKey: Guid(f8dd9bb1e7f9c9b45ad04433660e228c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Markers/InterCenter-None-4L.png using Guid(f8dd9bb1e7f9c9b45ad04433660e228c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a78a0c77df2211962e939ad68103622') in 0.008263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/RoadArchitect/Textures/Markers/InterCenter-Left-6L.png
-  artifactKey: Guid(c15f6c4435e8ea84a845d57ae890539e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Markers/InterCenter-Left-6L.png using Guid(c15f6c4435e8ea84a845d57ae890539e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80033725225daee5ded178fe77f97a17') in 0.014787 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/RoadArchitect/Textures/Markers/InterCenter-None-6L-3.png
-  artifactKey: Guid(93f409ccad9cdfb47973e1030f16c55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Markers/InterCenter-None-6L-3.png using Guid(93f409ccad9cdfb47973e1030f16c55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e3cb28c0abc3ec52901479811826a5') in 0.009906 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000894 seconds.
-  path: Assets/RoadArchitect/Textures/Markers/InterLaneDisabledOuterR-4L_Diffuse.png
-  artifactKey: Guid(166926d0df51b7847b68fcc6014bc475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Markers/InterLaneDisabledOuterR-4L_Diffuse.png using Guid(166926d0df51b7847b68fcc6014bc475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4184ed63a096f76dfbd8d8235398314') in 0.015675 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000513 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/Square/H18Diffuse.png
-  artifactKey: Guid(0acbbfa0b7507474ba6461692a69f41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/Square/H18Diffuse.png using Guid(0acbbfa0b7507474ba6461692a69f41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570225fba4cc27f40a4c06cb646ac183') in 0.010393 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000591 seconds.
-  path: Assets/RoadArchitect/Textures/Markers/InterCenter-Left-6L-3.png
-  artifactKey: Guid(c681d90161ae6714894018f22a92adef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Markers/InterCenter-Left-6L-3.png using Guid(c681d90161ae6714894018f22a92adef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1abe985a25bde5a6d4b026d07d114a') in 0.009564 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/RoadArchitect/Textures/Markers/InterCenter-Both-6L.png
-  artifactKey: Guid(d41348291a3e83947a1fc286d0ed32d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Markers/InterCenter-Both-6L.png using Guid(d41348291a3e83947a1fc286d0ed32d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebff3566751894fe678b8e29db4621c') in 0.010387 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/RoadArchitect/Editor/Icons/help.png
-  artifactKey: Guid(9375fcded36b0e64694f09ac88aadfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Editor/Icons/help.png using Guid(9375fcded36b0e64694f09ac88aadfb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc20da02191049c0c2815714a1d2e208') in 0.012689 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/RoadArchitect/Textures/Markers/InterCenter-Left-2L.png
-  artifactKey: Guid(897efb845d8f7b34e9f79d176c95ade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Markers/InterCenter-Left-2L.png using Guid(897efb845d8f7b34e9f79d176c95ade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4bce0977fe2f396997859b8dc66033') in 0.014809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Heightmaps/Hills02_Heightmap.tiff
-  artifactKey: Guid(0ae4396d11e334e4daf11922ac1f175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Heightmaps/Hills02_Heightmap.tiff using Guid(0ae4396d11e334e4daf11922ac1f175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8a9bd26b61aafd01bf7ddcac20b857') in 0.020788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.051941 seconds.
-  path: Assets/RoadArchitect/Editor/Library/Thumbs/SignDiamond.png
-  artifactKey: Guid(02b5c29221396ad4e800e9e56e390944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Editor/Library/Thumbs/SignDiamond.png using Guid(02b5c29221396ad4e800e9e56e390944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9db501b8343619d8716809294483b7') in 0.008666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/RoadArchitect/Editor/Library/Thumbs/SignRightTurnOnly.png
-  artifactKey: Guid(48eb5f6690733f4459db6806aa42367b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Editor/Library/Thumbs/SignRightTurnOnly.png using Guid(48eb5f6690733f4459db6806aa42367b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac565dbd5d2efc65ff4f5ca83cc7c2c') in 0.012131 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/RoadArchitect/Textures/Signs/SignStopDiffuse.png
-  artifactKey: Guid(4c95f61e9bcc21b4890ac5fc27ff9237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Signs/SignStopDiffuse.png using Guid(4c95f61e9bcc21b4890ac5fc27ff9237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f00be88f40fbcc0b7b3d8c0133c5ede') in 0.020924 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Heightmaps/Slope01_Heightmap.tiff
-  artifactKey: Guid(ef9c4dc3cb0fed644b548b70ef4f61a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Heightmaps/Slope01_Heightmap.tiff using Guid(ef9c4dc3cb0fed644b548b70ef4f61a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67af202ff162882f847ff87d1fa7c968') in 0.031530 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/RoadArchitect/Textures/Signs/SignRightTurnOnlyNormal.png
-  artifactKey: Guid(381be82fb52471548859abe26f64d6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Signs/SignRightTurnOnlyNormal.png using Guid(381be82fb52471548859abe26f64d6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e77a732fa555ae83f71cd50e5a2420a') in 0.024612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/RoadArchitect/Textures/Signs/SignDiamondDiffuse.png
-  artifactKey: Guid(218abc7e0c6b22643bbcb8bb6af144b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Signs/SignDiamondDiffuse.png using Guid(218abc7e0c6b22643bbcb8bb6af144b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76aad598c2455604e937f12813846c1') in 0.020856 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/RoadArchitect/Textures/Signs/SignStopNormal.png
-  artifactKey: Guid(d86d63bccd2eb804d8551c012b29292c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Signs/SignStopNormal.png using Guid(d86d63bccd2eb804d8551c012b29292c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e099660799217c225885e27f500014') in 0.017063 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 8.882416 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Muddy_MaskMap.tif
-  artifactKey: Guid(69ac4ffc59a4b194c9f03bec38be51ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Muddy_MaskMap.tif using Guid(69ac4ffc59a4b194c9f03bec38be51ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2a54daf98281294766c40d4b5ab4ee') in 0.030936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000111 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_A_MaskMap.tif
-  artifactKey: Guid(8abd4e7f6f86e8b4cb4820fea28b8f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_A_MaskMap.tif using Guid(8abd4e7f6f86e8b4cb4820fea28b8f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b30a2e01e046bfcc9da7afeb53e1d4') in 0.028628 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_C_BaseColor.tif
-  artifactKey: Guid(8e255f57d15705e488d4db5425239501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_C_BaseColor.tif using Guid(8e255f57d15705e488d4db5425239501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae306c23b834ab6c8304a4e3fbfd4386') in 0.043945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_C_Normal.tif
-  artifactKey: Guid(297a3ddfc901318499e15b3a0c8ec74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_C_Normal.tif using Guid(297a3ddfc901318499e15b3a0c8ec74d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18869f4ec0f9d6021974bc021f193638') in 0.052743 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Rock_BaseColor.tif
-  artifactKey: Guid(7e35234e281d141418972228ee38415e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Rock_BaseColor.tif using Guid(7e35234e281d141418972228ee38415e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b54a081155e17f9e900cb9f8100a67') in 0.031962 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_A_Normal.tif
-  artifactKey: Guid(00eadd7ea2cbbf14ca338babf410bdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_A_Normal.tif using Guid(00eadd7ea2cbbf14ca338babf410bdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8e0654ca9a205ee240317c6b9db6b6') in 0.016393 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Snow_MaskMap.tif
-  artifactKey: Guid(5d46f74cdeedd7941ba8cd7cb7ebb40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Snow_MaskMap.tif using Guid(5d46f74cdeedd7941ba8cd7cb7ebb40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080c344eb1328459c05cd488b4cf8f4c') in 0.022181 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_B_MaskMap.tif
-  artifactKey: Guid(5c4a8c65594fb714388c177bbed315bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_B_MaskMap.tif using Guid(5c4a8c65594fb714388c177bbed315bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60ead3fb2c70b1f0dc78952461d8c07') in 0.022800 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_C_MaskMap.tif
-  artifactKey: Guid(37bf2efdabb269f4b891344af9233d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Pebbles_C_MaskMap.tif using Guid(37bf2efdabb269f4b891344af9233d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a4ac5bc2de464135285b81ac37071b') in 0.028222 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/TerrainSampleAssets/Textures/Terrain/Rock_Normal.tif
-  artifactKey: Guid(d39a1b9e5d5c7b9499f579fa5c70a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainSampleAssets/Textures/Terrain/Rock_Normal.tif using Guid(d39a1b9e5d5c7b9499f579fa5c70a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1ae3ada355bbfbe007a922cac1b794') in 0.021748 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.740878 seconds.
-  path: Assets/RoadArchitect/Textures/Markers/InterStretch-None-4L.png
-  artifactKey: Guid(512c4c9066d58c641bdd1ed3825d23e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Markers/InterStretch-None-4L.png using Guid(512c4c9066d58c641bdd1ed3825d23e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7452c450c05b662795c0e45c12d08dd3') in 0.009399 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/RoadArchitect/Textures/FedSigns/Square/NoBikesDiffuse.png
-  artifactKey: Guid(13f2f7f1d23b06c47bce69b448553df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/FedSigns/Square/NoBikesDiffuse.png using Guid(13f2f7f1d23b06c47bce69b448553df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a7eb6df37fd9551d9b31c04f345615') in 0.013337 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/RoadArchitect/Textures/Metal1Normal.png
-  artifactKey: Guid(415cbd2250a921e4ba2802776b571271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RoadArchitect/Textures/Metal1Normal.png using Guid(415cbd2250a921e4ba2802776b571271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd541301c908e5fc6ceea677d7b1616ee') in 0.019097 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.903 seconds
-Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.012 seconds
-Domain Reload Profiling: 3916ms
-	BeginReloadAssembly (362ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (162ms)
-	RebuildCommonClasses (58ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (418ms)
-		LoadAssemblies (527ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (3014ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1473ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (57ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (1258ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 8.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3328 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 3932.
-Memory consumption went from 169.4 MB to 168.1 MB.
-Total: 12.839783 ms (FindLiveObjects: 1.164664 ms CreateObjectMapping: 0.508981 ms MarkObjects: 9.846188 ms  DeleteObjects: 1.317196 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
