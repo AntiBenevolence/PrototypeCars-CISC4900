@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menus/SettingsScene.unity
     guid: a0b7191f1171f324685c1fda446a8037
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CityScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BetaScene.unity
     guid: 13906c73202bd40a38bb44b1d2eaf0dc
   m_configObjects: {}
