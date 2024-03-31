@@ -5,6 +5,8 @@ public class GraphicsSettings : MonoBehaviour
 {
     public Slider graphicsSlider;
     public Text graphicsQualityText;
+    public Slider brightnessSlider; // Reference to the brightness slider UI element
+    public Text brightnessValueText; // Optional: Text element to display the current brightness value
 
     // Define the graphics quality levels
     private string[] qualityLevels = { "Low", "Medium", "High", "Ultra" };
@@ -20,6 +22,12 @@ public class GraphicsSettings : MonoBehaviour
 
         // Add a listener to the slider for value changes
         graphicsSlider.onValueChanged.AddListener(OnGraphicsSliderChanged);
+
+        // Add listener for brightness slider changes
+        brightnessSlider.onValueChanged.AddListener(OnBrightnessChanged);
+
+        // Optional: Initialize brightness value text
+        UpdateBrightnessValueText();
     }
 
     void OnGraphicsSliderChanged(float value)
@@ -47,5 +55,23 @@ public class GraphicsSettings : MonoBehaviour
 
         // Update the UI Text component directly with the quality level text
         graphicsQualityText.text = "Graphics Quality: " + qualityLevels[currentQualityLevelIndex];
+    }
+
+    public void OnBrightnessChanged(float brightness)
+    {
+        // Adjust environmental lighting based on the slider value
+        RenderSettings.skybox.SetFloat("_Exposure", brightness);
+
+        // Optional: Update brightness value text
+        UpdateBrightnessValueText();
+    }
+
+    void UpdateBrightnessValueText()
+    {
+        // Optional: Update the brightness value text to display the current slider value
+        if (brightnessValueText != null)
+        {
+            brightnessValueText.text = brightnessSlider.value.ToString("F2");
+        }
     }
 }

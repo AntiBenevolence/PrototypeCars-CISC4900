@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AudioManager
     - FullscreenSettings
     - GraphicsSettings
     - ResolutionSettings
@@ -38,6 +39,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -76,6 +78,8 @@ ScriptsOnlyBuild:
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
@@ -116,6 +120,9 @@ ScriptsOnlyBuild:
     fullTypeName: SceneManagerScript
     methodName: QuitGame
   - assembly: Assembly-CSharp
+    fullTypeName: GraphicsSettings
+    methodName: OnBrightnessChanged
+  - assembly: Assembly-CSharp
     fullTypeName: SceneManagerScript
     methodName: QuitGame
   - assembly: Assembly-CSharp
@@ -125,11 +132,23 @@ ScriptsOnlyBuild:
     fullTypeName: SettingsManager
     methodName: ShowVideoSettings
   - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayButtonHoverSound
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayButtonClickSound
+  - assembly: Assembly-CSharp
     fullTypeName: SceneManagerScript
     methodName: OpenAboutUsScene
   - assembly: Assembly-CSharp
     fullTypeName: SettingsManager
     methodName: ShowGeneralSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayButtonHoverSound
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayButtonClickSound
   - assembly: Assembly-CSharp
     fullTypeName: SceneManagerScript
     methodName: OpenSettingsScene
@@ -137,8 +156,20 @@ ScriptsOnlyBuild:
     fullTypeName: SettingsManager
     methodName: ShowAudioSettings
   - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayButtonHoverSound
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayButtonClickSound
+  - assembly: Assembly-CSharp
     fullTypeName: SettingsManager
     methodName: ShowControlSettings
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayButtonHoverSound
+  - assembly: Assembly-CSharp
+    fullTypeName: AudioManager
+    methodName: PlayButtonClickSound
   - assembly: Assembly-CSharp
     fullTypeName: SettingsManager
     methodName: AcceptSettings
@@ -171,23 +202,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1714}
+      Script: {instanceID: 1716}
     - Class: 114
-      Script: {instanceID: 2740}
+      Script: {instanceID: 2742}
     - Class: 114
-      Script: {instanceID: 2954}
+      Script: {instanceID: 2956}
     - Class: 114
-      Script: {instanceID: 3250}
+      Script: {instanceID: 3252}
     - Class: 114
-      Script: {instanceID: 5252}
+      Script: {instanceID: 5254}
     - Class: 114
-      Script: {instanceID: 5812}
+      Script: {instanceID: 5814}
     - Class: 114
-      Script: {instanceID: 5972}
+      Script: {instanceID: 5974}
     - Class: 114
-      Script: {instanceID: 6304}
+      Script: {instanceID: 6306}
     - Class: 114
-      Script: {instanceID: 8752}
+      Script: {instanceID: 8764}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -223,6 +254,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 91
@@ -234,31 +269,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1714}
+      Script: {instanceID: 1716}
     - Class: 114
-      Script: {instanceID: 2302}
+      Script: {instanceID: 2304}
     - Class: 114
-      Script: {instanceID: 2740}
+      Script: {instanceID: 2742}
     - Class: 114
-      Script: {instanceID: 2954}
+      Script: {instanceID: 2956}
     - Class: 114
-      Script: {instanceID: 3250}
+      Script: {instanceID: 3252}
     - Class: 114
-      Script: {instanceID: 4160}
+      Script: {instanceID: 4162}
     - Class: 114
-      Script: {instanceID: 4274}
+      Script: {instanceID: 4276}
     - Class: 114
-      Script: {instanceID: 4540}
+      Script: {instanceID: 4542}
     - Class: 114
-      Script: {instanceID: 5252}
+      Script: {instanceID: 5254}
     - Class: 114
-      Script: {instanceID: 5812}
+      Script: {instanceID: 5814}
     - Class: 114
-      Script: {instanceID: 5972}
+      Script: {instanceID: 5974}
     - Class: 114
-      Script: {instanceID: 6304}
+      Script: {instanceID: 6306}
     - Class: 114
-      Script: {instanceID: 8752}
+      Script: {instanceID: 8764}
+    - Class: 114
+      Script: {instanceID: 31974}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -292,6 +329,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 91
@@ -300,50 +341,52 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1714}
+      Script: {instanceID: 1646}
     - Class: 114
-      Script: {instanceID: 2740}
+      Script: {instanceID: 1716}
     - Class: 114
-      Script: {instanceID: 2954}
+      Script: {instanceID: 2742}
     - Class: 114
-      Script: {instanceID: 3250}
+      Script: {instanceID: 2956}
     - Class: 114
-      Script: {instanceID: 4038}
+      Script: {instanceID: 3252}
     - Class: 114
-      Script: {instanceID: 5130}
+      Script: {instanceID: 4040}
     - Class: 114
-      Script: {instanceID: 5180}
+      Script: {instanceID: 5132}
     - Class: 114
-      Script: {instanceID: 5252}
+      Script: {instanceID: 5182}
     - Class: 114
-      Script: {instanceID: 5508}
+      Script: {instanceID: 5254}
     - Class: 114
-      Script: {instanceID: 5812}
+      Script: {instanceID: 5510}
     - Class: 114
-      Script: {instanceID: 5972}
+      Script: {instanceID: 5814}
     - Class: 114
-      Script: {instanceID: 6304}
+      Script: {instanceID: 5974}
     - Class: 114
-      Script: {instanceID: 6316}
+      Script: {instanceID: 6306}
     - Class: 114
-      Script: {instanceID: 7080}
+      Script: {instanceID: 6318}
     - Class: 114
-      Script: {instanceID: 7372}
+      Script: {instanceID: 7030}
     - Class: 114
-      Script: {instanceID: 8580}
+      Script: {instanceID: 7082}
     - Class: 114
-      Script: {instanceID: 8752}
+      Script: {instanceID: 7374}
     - Class: 114
-      Script: {instanceID: 40608}
+      Script: {instanceID: 8584}
     - Class: 114
-      Script: {instanceID: 50724}
+      Script: {instanceID: 8600}
     - Class: 114
-      Script: {instanceID: 57574}
+      Script: {instanceID: 8704}
     - Class: 114
-      Script: {instanceID: 63854}
+      Script: {instanceID: 8764}
+    - Class: 114
+      Script: {instanceID: 8848}
+    - Class: 114
+      Script: {instanceID: 31974}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -361,6 +404,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: c53ff521477e2b3c4d5abfb9fb88cb82
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ResolutionSettings
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -1305,6 +1354,12 @@ ScriptsOnlyBuild:
     className: TMP_UiFrameRateCounter
   - hash:
       serializedVersion: 2
+      Hash: 9a9f81c0e4bf04dd2a4ba0b4f14e8ac9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GraphicsSettings
+  - hash:
+      serializedVersion: 2
       Hash: 418b67019f13f9684552f2693bae3971
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
@@ -1393,6 +1448,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: TMP_FrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: fb82d301818235701461a74f854d9fe3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FullscreenSettings
   - hash:
       serializedVersion: 2
       Hash: 35e0b31791c377513b6fc7b9568c50cd
@@ -1539,6 +1600,12 @@ ScriptsOnlyBuild:
     className: SimpleScript
   - hash:
       serializedVersion: 2
+      Hash: a94d9d31d84d2ca69c734fb21ffdbb57
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: VSyncSettings
+  - hash:
+      serializedVersion: 2
       Hash: 5a1710e1ce9ddf5eb06e0d2693171f49
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
@@ -1551,28 +1618,10 @@ ScriptsOnlyBuild:
     className: TMP_ExampleScript_01
   - hash:
       serializedVersion: 2
-      Hash: c53ff521477e2b3c4d5abfb9fb88cb82
+      Hash: dd84c5f87a8e129120778cba1d4f406b
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: ResolutionSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 1affa91d8e7d7e0ce6e181eb83153aa0
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GraphicsSettings
-  - hash:
-      serializedVersion: 2
-      Hash: fb82d301818235701461a74f854d9fe3
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: FullscreenSettings
-  - hash:
-      serializedVersion: 2
-      Hash: a94d9d31d84d2ca69c734fb21ffdbb57
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: VSyncSettings
+    className: AudioManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menus/Main Menu.unity
