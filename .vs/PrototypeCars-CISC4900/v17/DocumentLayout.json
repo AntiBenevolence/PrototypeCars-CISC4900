@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\SettingsManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Menus\\Ui Elements\\SettingsManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\SceneManagerScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Menus\\Ui Elements\\SceneManagerScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\ControllerSettingsManager1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Menus\\Ui Elements\\ControllerSettingsManager1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\SteeringWheelBindingPanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Menus\\Ui Elements\\SteeringWheelBindingPanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\ControllerBindingPanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Menus\\Ui Elements\\ControllerBindingPanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\ContollerBindingPanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Menus\\Ui Elements\\ContollerBindingPanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\KeyboardBindingPanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scenes\\Menus\\Ui Elements\\KeyboardBindingPanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SceneManagerScript.cs",
+              "DocumentMoniker": "C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\SceneManagerScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Menus\\Ui Elements\\SceneManagerScript.cs",
+              "ToolTip": "C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\SceneManagerScript.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Menus\\Ui Elements\\SceneManagerScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T21:22:51.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SettingsManager.cs",
+              "DocumentMoniker": "C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\SettingsManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Menus\\Ui Elements\\SettingsManager.cs",
+              "ToolTip": "C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\SettingsManager.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Menus\\Ui Elements\\SettingsManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T20:56:19.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ControllerSettingsManager1.cs",
+              "DocumentMoniker": "C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\ControllerSettingsManager1.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Menus\\Ui Elements\\ControllerSettingsManager1.cs",
+              "ToolTip": "C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\ControllerSettingsManager1.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Menus\\Ui Elements\\ControllerSettingsManager1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T20:47:01.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SteeringWheelBindingPanel.cs",
+              "DocumentMoniker": "C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\SteeringWheelBindingPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Menus\\Ui Elements\\SteeringWheelBindingPanel.cs",
+              "ToolTip": "C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\SteeringWheelBindingPanel.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Menus\\Ui Elements\\SteeringWheelBindingPanel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T20:40:58.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ControllerBindingPanel.cs",
+              "DocumentMoniker": "C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\ControllerBindingPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Menus\\Ui Elements\\ControllerBindingPanel.cs",
+              "ToolTip": "C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\ControllerBindingPanel.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Menus\\Ui Elements\\ControllerBindingPanel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T20:33:32.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContollerBindingPanel.cs",
+              "DocumentMoniker": "C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\ContollerBindingPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Menus\\Ui Elements\\ContollerBindingPanel.cs",
+              "ToolTip": "C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\ContollerBindingPanel.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Menus\\Ui Elements\\ContollerBindingPanel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T20:29:08.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "KeyboardBindingPanel.cs",
+              "DocumentMoniker": "C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\KeyboardBindingPanel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Menus\\Ui Elements\\KeyboardBindingPanel.cs",
+              "ToolTip": "C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Assets\\Scenes\\Menus\\Ui Elements\\KeyboardBindingPanel.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Menus\\Ui Elements\\KeyboardBindingPanel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T20:16:12.558Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

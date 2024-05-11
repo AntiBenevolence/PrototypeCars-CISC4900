@@ -2,11 +2,15 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AudioManager
+    - ControllerBindingPanel
+    - ControllerSettingsManager1
     - FullscreenSettings
     - GraphicsSettings
+    - KeyboardBindingPanel
     - ResolutionSettings
     - SceneManagerScript
     - SettingsManager
+    - SteeringWheelBindingPanel1
     - VSyncSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -46,6 +50,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Dropdown
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.Mask
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
@@ -87,6 +92,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Dropdown/OptionData
     - UnityEngine.UI.Dropdown/OptionDataList
     - UnityEngine.UI.FontData
+    - UnityEngine.UI.InputField/EndEditEvent
+    - UnityEngine.UI.InputField/OnChangeEvent
+    - UnityEngine.UI.InputField/SubmitEvent
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.ScrollRect/ScrollRectEvent
@@ -120,14 +128,20 @@ ScriptsOnlyBuild:
     fullTypeName: SceneManagerScript
     methodName: QuitGame
   - assembly: Assembly-CSharp
-    fullTypeName: GraphicsSettings
-    methodName: OnBrightnessChanged
+    fullTypeName: ControllerSettingsManager1
+    methodName: ShowSteeringWheelPanel
   - assembly: Assembly-CSharp
     fullTypeName: SceneManagerScript
     methodName: QuitGame
   - assembly: Assembly-CSharp
+    fullTypeName: GraphicsSettings
+    methodName: OnBrightnessChanged
+  - assembly: Assembly-CSharp
     fullTypeName: SceneManagerScript
     methodName: OpenCarSelectionScene
+  - assembly: Assembly-CSharp
+    fullTypeName: ControllerSettingsManager1
+    methodName: ShowControllerPanel
   - assembly: Assembly-CSharp
     fullTypeName: SettingsManager
     methodName: ShowVideoSettings
@@ -141,15 +155,6 @@ ScriptsOnlyBuild:
     fullTypeName: SceneManagerScript
     methodName: OpenAboutUsScene
   - assembly: Assembly-CSharp
-    fullTypeName: SettingsManager
-    methodName: ShowGeneralSettings
-  - assembly: Assembly-CSharp
-    fullTypeName: AudioManager
-    methodName: PlayButtonHoverSound
-  - assembly: Assembly-CSharp
-    fullTypeName: AudioManager
-    methodName: PlayButtonClickSound
-  - assembly: Assembly-CSharp
     fullTypeName: SceneManagerScript
     methodName: OpenSettingsScene
   - assembly: Assembly-CSharp
@@ -161,6 +166,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: AudioManager
     methodName: PlayButtonClickSound
+  - assembly: Assembly-CSharp
+    fullTypeName: ControllerSettingsManager1
+    methodName: ShowKeyboardPanel
   - assembly: Assembly-CSharp
     fullTypeName: SettingsManager
     methodName: ShowControlSettings
@@ -202,23 +210,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1716}
+      Script: {instanceID: 1718}
     - Class: 114
-      Script: {instanceID: 2742}
+      Script: {instanceID: 2754}
     - Class: 114
-      Script: {instanceID: 2956}
+      Script: {instanceID: 2976}
     - Class: 114
-      Script: {instanceID: 3252}
+      Script: {instanceID: 3282}
     - Class: 114
-      Script: {instanceID: 5254}
+      Script: {instanceID: 5308}
     - Class: 114
-      Script: {instanceID: 5814}
+      Script: {instanceID: 5872}
     - Class: 114
-      Script: {instanceID: 5974}
+      Script: {instanceID: 6038}
     - Class: 114
-      Script: {instanceID: 6306}
+      Script: {instanceID: 6376}
     - Class: 114
-      Script: {instanceID: 8764}
+      Script: {instanceID: 8402}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -269,33 +277,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1716}
+      Script: {instanceID: 1718}
     - Class: 114
-      Script: {instanceID: 2304}
+      Script: {instanceID: 2310}
     - Class: 114
-      Script: {instanceID: 2742}
+      Script: {instanceID: 2754}
     - Class: 114
-      Script: {instanceID: 2956}
+      Script: {instanceID: 2976}
     - Class: 114
-      Script: {instanceID: 3252}
+      Script: {instanceID: 3282}
     - Class: 114
-      Script: {instanceID: 4162}
+      Script: {instanceID: 4200}
     - Class: 114
-      Script: {instanceID: 4276}
+      Script: {instanceID: 4314}
     - Class: 114
-      Script: {instanceID: 4542}
+      Script: {instanceID: 4586}
     - Class: 114
-      Script: {instanceID: 5254}
+      Script: {instanceID: 5308}
     - Class: 114
-      Script: {instanceID: 5814}
+      Script: {instanceID: 5872}
     - Class: 114
-      Script: {instanceID: 5974}
+      Script: {instanceID: 6038}
     - Class: 114
-      Script: {instanceID: 6306}
+      Script: {instanceID: 6376}
     - Class: 114
-      Script: {instanceID: 8764}
+      Script: {instanceID: 8402}
     - Class: 114
-      Script: {instanceID: 31974}
+      Script: {instanceID: 8414}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -344,49 +352,59 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1646}
     - Class: 114
-      Script: {instanceID: 1716}
+      Script: {instanceID: 1718}
     - Class: 114
-      Script: {instanceID: 2742}
+      Script: {instanceID: 2754}
     - Class: 114
-      Script: {instanceID: 2956}
+      Script: {instanceID: 2976}
     - Class: 114
-      Script: {instanceID: 3252}
+      Script: {instanceID: 3030}
     - Class: 114
-      Script: {instanceID: 4040}
+      Script: {instanceID: 3282}
     - Class: 114
-      Script: {instanceID: 5132}
+      Script: {instanceID: 4078}
     - Class: 114
-      Script: {instanceID: 5182}
+      Script: {instanceID: 5184}
     - Class: 114
-      Script: {instanceID: 5254}
+      Script: {instanceID: 5236}
     - Class: 114
-      Script: {instanceID: 5510}
+      Script: {instanceID: 5308}
     - Class: 114
-      Script: {instanceID: 5814}
+      Script: {instanceID: 5566}
     - Class: 114
-      Script: {instanceID: 5974}
+      Script: {instanceID: 5872}
     - Class: 114
-      Script: {instanceID: 6306}
+      Script: {instanceID: 6038}
     - Class: 114
-      Script: {instanceID: 6318}
+      Script: {instanceID: 6376}
     - Class: 114
-      Script: {instanceID: 7030}
+      Script: {instanceID: 6388}
     - Class: 114
-      Script: {instanceID: 7082}
+      Script: {instanceID: 7118}
     - Class: 114
-      Script: {instanceID: 7374}
+      Script: {instanceID: 7174}
     - Class: 114
-      Script: {instanceID: 8584}
+      Script: {instanceID: 7470}
     - Class: 114
-      Script: {instanceID: 8600}
+      Script: {instanceID: 8290}
     - Class: 114
-      Script: {instanceID: 8704}
+      Script: {instanceID: 8294}
     - Class: 114
-      Script: {instanceID: 8764}
+      Script: {instanceID: 8322}
     - Class: 114
-      Script: {instanceID: 8848}
+      Script: {instanceID: 8334}
     - Class: 114
-      Script: {instanceID: 31974}
+      Script: {instanceID: 8378}
+    - Class: 114
+      Script: {instanceID: 8402}
+    - Class: 114
+      Script: {instanceID: 8414}
+    - Class: 114
+      Script: {instanceID: 8438}
+    - Class: 114
+      Script: {instanceID: 27622}
+    - Class: 114
+      Script: {instanceID: 28784}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -406,10 +424,16 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: c53ff521477e2b3c4d5abfb9fb88cb82
+      Hash: 8527d58fe95e4c9dc5c7e1a268ecbdd0
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: ResolutionSettings
+    className: KeyboardBindingPanel
+  - hash:
+      serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -550,10 +574,22 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionEnterMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 92e2aff9262118b31f3ed4c72a0a727b
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: SplineFEditor
+  - hash:
+      serializedVersion: 2
       Hash: 7e12302f66e3c8ed5bcfea4ce65fccea
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 3a60872909a77684cec3a4f68a834a3c
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: EditorProgressWindow
   - hash:
       serializedVersion: 2
       Hash: fce9b835d1e8b08e7ecea8da19f21986
@@ -572,6 +608,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 11ac4e5e2a98109f11d5615fd3de5db7
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: RigidBody
   - hash:
       serializedVersion: 2
       Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
@@ -610,10 +652,22 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: b08fdc06d62eb181dde8a973ce27873e
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: Wizard
+  - hash:
+      serializedVersion: 2
       Hash: b98001682cba83786775c9e415b89a61
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7494c0e356886a484fe8966b5b62a495
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: ObjExporter
   - hash:
       serializedVersion: 2
       Hash: a1ac4c50e55874de16eee3db71aa9784
@@ -658,12 +712,6 @@ ScriptsOnlyBuild:
     className: UnityOnTransformParentChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: ContentSizeFitter
-  - hash:
-      serializedVersion: 2
       Hash: c6369b4cc3be620d6c9300e920bc3d52
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -680,6 +728,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fd839191d48bb61e27c349f38977bd7e
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: RoadTerrain
   - hash:
       serializedVersion: 2
       Hash: 5b8b7230ad968399f6726aa1269dcdcb
@@ -718,6 +772,12 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionExit2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: a4847060a93e6962f4251df2015b9290
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: HelpWindow
+  - hash:
+      serializedVersion: 2
       Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
     assemblyName: Unity.VisualScripting.Flow
     namespaceName: Unity.VisualScripting
@@ -734,6 +794,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8980cea777b4fbc24fbe70af2eabb6cb
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: SplineNEditor
   - hash:
       serializedVersion: 2
       Hash: b747f5d40674055dd70e18552f1b0447
@@ -796,6 +862,12 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 49991bb6003dbfd29147757906dabf1c
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: SplineN
+  - hash:
+      serializedVersion: 2
       Hash: 9ebc0a3016506a0cbb7e0306dfcb9497
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -820,6 +892,12 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 05b39625a6d8dd091c10fd12fab3cd05
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: SaveWindow
+  - hash:
+      serializedVersion: 2
       Hash: 7e9cad7f71f9cc52f699bbd2d2a75734
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -830,6 +908,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ffd21c534296086897861637d703a9e7
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: SplineC
   - hash:
       serializedVersion: 2
       Hash: e402a382f213255c22bda9254dd831b3
@@ -994,6 +1078,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpAsButtonMessageListener
   - hash:
       serializedVersion: 2
+      Hash: ea16c95cca5379475fa931d8c8ca23fe
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: SplineF
+  - hash:
+      serializedVersion: 2
       Hash: 4f353524ce6564e40764f1ea080b2d85
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1036,6 +1126,12 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: b9e8cd2aaf217dd2489903ec59b42e22
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: SplineIEditor
+  - hash:
+      serializedVersion: 2
       Hash: f669be52680c88846b2093fd41d1e06e
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1046,6 +1142,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 378b086bcffa16d97f9d8da6b281e957
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: SplineCEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 610a352aede18b2ea477c9a24b54b451
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: Road
   - hash:
       serializedVersion: 2
       Hash: 17142b03663387290480c82303274c02
@@ -1150,10 +1258,22 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 44acf57e173287643b5920a6dde3c6fc
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: RoadIntersectionEditor
+  - hash:
+      serializedVersion: 2
       Hash: 67272c9c30c50b68ef1ce72ac0191c57
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 20f4c434548cdf8fcb9a5d99e7b39fe7
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: TerrainEditor
   - hash:
       serializedVersion: 2
       Hash: d0392b7f3f52d5af537ade186b4f51f1
@@ -1172,6 +1292,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1861b07cf18fbd13c4ecf0d31bdf391d
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: RoadSystemEditor
   - hash:
       serializedVersion: 2
       Hash: 0f5a086d4d028363983ba6ca30a01397
@@ -1204,6 +1330,18 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 459f03a9c4dfee0487740df19cb4f1de
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: RoadSystem
+  - hash:
+      serializedVersion: 2
+      Hash: de7ce51ec181a6ecc75fb46d8a939277
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: SplineI
+  - hash:
+      serializedVersion: 2
       Hash: ff76cf6cf52b4db7b95af6ffadca9288
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1226,6 +1364,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 1ef9fe9b9196f00f0c7e3e8ebb4e861d
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: RoadIntersection
+  - hash:
+      serializedVersion: 2
+      Hash: d79c9d1b59fc9a45f5d18fd20b5c4ffe
+    assemblyName: RoadArchitect
+    namespaceName: RoadArchitect
+    className: RoadEditor
   - hash:
       serializedVersion: 2
       Hash: 00eef92bf387da2c9009267123d9d674
@@ -1258,46 +1408,28 @@ ScriptsOnlyBuild:
     className: TMP_TextInfoDebugTool
   - hash:
       serializedVersion: 2
-      Hash: fd839191d48bb61e27c349f38977bd7e
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: RoadTerrain
-  - hash:
-      serializedVersion: 2
       Hash: c4ae0ec287bc3cde0bc98e1a65f9cef7
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: VertexColorCycler
   - hash:
       serializedVersion: 2
-      Hash: 610a352aede18b2ea477c9a24b54b451
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: Road
+      Hash: 3c6c417a69f278eff2b284261f74dd66
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ControllerSettingsManager1
   - hash:
       serializedVersion: 2
-      Hash: ffd21c534296086897861637d703a9e7
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: SplineC
+      Hash: c53ff521477e2b3c4d5abfb9fb88cb82
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ResolutionSettings
   - hash:
       serializedVersion: 2
       Hash: 9fb1c3ab48b256d508ecddd967f98652
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: VertexZoom
-  - hash:
-      serializedVersion: 2
-      Hash: d79c9d1b59fc9a45f5d18fd20b5c4ffe
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: RoadEditor
-  - hash:
-      serializedVersion: 2
-      Hash: ea16c95cca5379475fa931d8c8ca23fe
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: SplineF
   - hash:
       serializedVersion: 2
       Hash: 04f2d6a4db8a670aeb2c87d9ffd08865
@@ -1318,12 +1450,6 @@ ScriptsOnlyBuild:
     className: ChatController
   - hash:
       serializedVersion: 2
-      Hash: a4847060a93e6962f4251df2015b9290
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: HelpWindow
-  - hash:
-      serializedVersion: 2
       Hash: c4de0ff7e075dd89c9fed5913dd775d2
     assemblyName: Assembly-CSharp
     namespaceName: TMPro
@@ -1336,7 +1462,7 @@ ScriptsOnlyBuild:
     className: TMPro_InstructionOverlay
   - hash:
       serializedVersion: 2
-      Hash: 2cf914f46ba3f85ab24e9cebdf57b7ab
+      Hash: 18f23bce53aa61bf78629e510dc448ac
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SettingsManager
@@ -1384,46 +1510,16 @@ ScriptsOnlyBuild:
     className: VertexShakeB
   - hash:
       serializedVersion: 2
-      Hash: 459f03a9c4dfee0487740df19cb4f1de
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: RoadSystem
-  - hash:
-      serializedVersion: 2
-      Hash: 49991bb6003dbfd29147757906dabf1c
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: SplineN
-  - hash:
-      serializedVersion: 2
-      Hash: 3a60872909a77684cec3a4f68a834a3c
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: EditorProgressWindow
-  - hash:
-      serializedVersion: 2
       Hash: 4166580c620718548959a77fa7b43fc1
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: TextMeshSpawner
   - hash:
       serializedVersion: 2
-      Hash: 1861b07cf18fbd13c4ecf0d31bdf391d
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: RoadSystemEditor
-  - hash:
-      serializedVersion: 2
       Hash: ab3d19695db8289414a06e6d45fd6c8e
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: ShaderPropAnimator
-  - hash:
-      serializedVersion: 2
-      Hash: 11ac4e5e2a98109f11d5615fd3de5db7
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: RigidBody
   - hash:
       serializedVersion: 2
       Hash: fc0a9a681d29388386a9abf3f08b024a
@@ -1474,22 +1570,10 @@ ScriptsOnlyBuild:
     className: Benchmark01
   - hash:
       serializedVersion: 2
-      Hash: 20f4c434548cdf8fcb9a5d99e7b39fe7
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: TerrainEditor
-  - hash:
-      serializedVersion: 2
       Hash: 0dd14e314956b0d0d83ffcffe60aa46f
     assemblyName: Assembly-CSharp
     namespaceName: TMPro
     className: TMP_DigitValidator
-  - hash:
-      serializedVersion: 2
-      Hash: 8980cea777b4fbc24fbe70af2eabb6cb
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: SplineNEditor
   - hash:
       serializedVersion: 2
       Hash: a9de1420f987ad2ca04adc59b7ed6d51
@@ -1504,34 +1588,10 @@ ScriptsOnlyBuild:
     className: SceneManagerScript
   - hash:
       serializedVersion: 2
-      Hash: de7ce51ec181a6ecc75fb46d8a939277
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: SplineI
-  - hash:
-      serializedVersion: 2
-      Hash: 44acf57e173287643b5920a6dde3c6fc
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: RoadIntersectionEditor
-  - hash:
-      serializedVersion: 2
-      Hash: 1ef9fe9b9196f00f0c7e3e8ebb4e861d
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: RoadIntersection
-  - hash:
-      serializedVersion: 2
       Hash: 7351dccfb4c2048f67fbc88987bcb9e6
     assemblyName: Assembly-CSharp
     namespaceName: LowPolyWater
     className: LowPolyWater
-  - hash:
-      serializedVersion: 2
-      Hash: b9e8cd2aaf217dd2489903ec59b42e22
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: SplineIEditor
   - hash:
       serializedVersion: 2
       Hash: 502a0d788634601faaefeacfda55e23a
@@ -1540,16 +1600,16 @@ ScriptsOnlyBuild:
     className: DropdownSample
   - hash:
       serializedVersion: 2
+      Hash: dd84c5f87a8e129120778cba1d4f406b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AudioManager
+  - hash:
+      serializedVersion: 2
       Hash: 593a641cd7822a10b9a54aa9eb5c3d5e
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: Benchmark04
-  - hash:
-      serializedVersion: 2
-      Hash: 92e2aff9262118b31f3ed4c72a0a727b
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: SplineFEditor
   - hash:
       serializedVersion: 2
       Hash: e416782d95a812c5b5b00e9b103a8e94
@@ -1558,34 +1618,10 @@ ScriptsOnlyBuild:
     className: CameraController
   - hash:
       serializedVersion: 2
-      Hash: 05b39625a6d8dd091c10fd12fab3cd05
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: SaveWindow
-  - hash:
-      serializedVersion: 2
-      Hash: 378b086bcffa16d97f9d8da6b281e957
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: SplineCEditor
-  - hash:
-      serializedVersion: 2
-      Hash: 7494c0e356886a484fe8966b5b62a495
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: ObjExporter
-  - hash:
-      serializedVersion: 2
       Hash: 8668b70b18eb7f5cd2dce04386848007
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: VertexJitter
-  - hash:
-      serializedVersion: 2
-      Hash: b08fdc06d62eb181dde8a973ce27873e
-    assemblyName: RoadArchitect
-    namespaceName: RoadArchitect
-    className: Wizard
   - hash:
       serializedVersion: 2
       Hash: c9b1ea3bf987a2e780a24849503ca72e
@@ -1618,13 +1654,19 @@ ScriptsOnlyBuild:
     className: TMP_ExampleScript_01
   - hash:
       serializedVersion: 2
-      Hash: dd84c5f87a8e129120778cba1d4f406b
+      Hash: 433650c8093734286f8735f3487e6515
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: AudioManager
+    className: ControllerBindingPanel
+  - hash:
+      serializedVersion: 2
+      Hash: a50581cf5607144008185e44aebaa890
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SteeringWheelBindingPanel1
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menus/Main Menu.unity
   - Assets/Scenes/Menus/AboutUsScene.unity
   - Assets/Scenes/Menus/SettingsScene.unity
-  playerPath: C:/Users/maste/OneDrive/Desktop/build test/Prototype-CISC4900.exe
+  playerPath: C:/Users/Harle/OneDrive/Desktop/Game Build/Prototype-CISC4900.exe

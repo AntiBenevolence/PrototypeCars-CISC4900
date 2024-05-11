@@ -174,7 +174,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 107,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "C:\\Users\\maste\\OneDrive\\Docume",
+      "PayloadDebugContentSnippet": "C:\\Users\\Harle\\OneDrive\\Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt"
@@ -200,7 +200,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 45810,
       "PayloadLength": 76,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maste\\OneDr",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Harle\\OneDr",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/UnityEngine.TestRunner.rsp2"
@@ -1828,7 +1828,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 51888,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "C:\\Users\\maste\\OneDrive\\Docume",
+      "PayloadDebugContentSnippet": "C:\\Users\\Harle\\OneDrive\\Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -1854,7 +1854,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 91120,
       "PayloadLength": 76,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maste\\OneDr",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Harle\\OneDr",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.rsp2"
@@ -2361,7 +2361,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 97283,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "C:\\Users\\maste\\OneDrive\\Docume",
+      "PayloadDebugContentSnippet": "C:\\Users\\Harle\\OneDrive\\Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/RoadArchitect.UnityAdditionalFile.txt"
@@ -2871,7 +2871,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 138420,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "C:\\Users\\maste\\OneDrive\\Docume",
+      "PayloadDebugContentSnippet": "C:\\Users\\Harle\\OneDrive\\Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.TerrainTools.UnityAdditionalFile.txt"
@@ -2897,7 +2897,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 170544,
       "PayloadLength": 76,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maste\\OneDr",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Harle\\OneDr",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.TerrainTools.rsp2"
@@ -3309,7 +3309,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 176791,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "C:\\Users\\maste\\OneDrive\\Docume",
+      "PayloadDebugContentSnippet": "C:\\Users\\Harle\\OneDrive\\Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
@@ -3335,7 +3335,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 214053,
       "PayloadLength": 76,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maste\\OneDr",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Harle\\OneDr",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.rsp2"
@@ -3805,7 +3805,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 220296,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "C:\\Users\\maste\\OneDrive\\Docume",
+      "PayloadDebugContentSnippet": "C:\\Users\\Harle\\OneDrive\\Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.UnityAdditionalFile.txt"
@@ -3831,7 +3831,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 258636,
       "PayloadLength": 76,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maste\\OneDr",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Harle\\OneDr",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.rsp2"
@@ -4315,7 +4315,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 264888,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "C:\\Users\\maste\\OneDrive\\Docume",
+      "PayloadDebugContentSnippet": "C:\\Users\\Harle\\OneDrive\\Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt"
@@ -4341,7 +4341,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 350974,
       "PayloadLength": 76,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maste\\OneDr",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Harle\\OneDr",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Core.rsp2"
@@ -5180,7 +5180,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 357238,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "C:\\Users\\maste\\OneDrive\\Docume",
+      "PayloadDebugContentSnippet": "C:\\Users\\Harle\\OneDrive\\Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
@@ -5206,7 +5206,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 438734,
       "PayloadLength": 76,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maste\\OneDr",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Harle\\OneDr",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.Flow.rsp2"
@@ -6041,7 +6041,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 445087,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "C:\\Users\\maste\\OneDrive\\Docume",
+      "PayloadDebugContentSnippet": "C:\\Users\\Harle\\OneDrive\\Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt"
@@ -6067,7 +6067,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 480589,
       "PayloadLength": 76,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\maste\\OneDr",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Harle\\OneDr",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.rsp2"
@@ -6535,7 +6535,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 487019,
       "PayloadLength": 63,
-      "PayloadDebugContentSnippet": "C:\\Users\\maste\\OneDrive\\Docume",
+      "PayloadDebugContentSnippet": "C:\\Users\\Harle\\OneDrive\\Docume",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aP.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -6547,7 +6547,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 487168,
-      "PayloadLength": 35084,
+      "PayloadLength": 35334,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -6559,7 +6559,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 522339,
+      "PayloadOffset": 522589,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -6773,11 +6773,15 @@
         "Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll",
         "Assets/LowPolyWater_Pack/Scripts/LowPolyWater.cs",
         "Assets/Scenes/Menus/Audio/AudioManager.cs",
+        "Assets/Scenes/Menus/Ui Elements/ControllerBindingPanel.cs",
+        "Assets/Scenes/Menus/Ui Elements/ControllerSettingsManager1.cs",
         "Assets/Scenes/Menus/Ui Elements/FullscreenSettings.cs",
         "Assets/Scenes/Menus/Ui Elements/GraphicsSettings.cs",
+        "Assets/Scenes/Menus/Ui Elements/KeyboardBindingPanel.cs",
         "Assets/Scenes/Menus/Ui Elements/ResolutionSettings.cs",
         "Assets/Scenes/Menus/Ui Elements/SceneManagerScript.cs",
         "Assets/Scenes/Menus/Ui Elements/SettingsManager.cs",
+        "Assets/Scenes/Menus/Ui Elements/SteeringWheelBindingPanel1.cs",
         "Assets/Scenes/Menus/Ui Elements/VSyncSettings.cs",
         "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs",
         "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs",
@@ -6929,7 +6933,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aP.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 522435,
+      "PayloadOffset": 522685,
       "PayloadLength": 6464,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -7409,7 +7413,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Player/RuntimeInitializeOnLoads.json (+1 other)",
       "DisplayName": "BuildPlayerDataGenerator RuntimeInitializeOnLoads",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\maste\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\maste\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\RoadArchitect.dll\" -a=\"C:\\Users\\maste\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TerrainTools.dll\" -a=\"C:\\Users\\maste\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\maste\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\maste\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\maste\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\maste\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\maste\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\maste\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\maste\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\maste\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\maste\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\" -s=\"C:\\Users\\maste\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\maste\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\RoadArchitect.dll\" -a=\"C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TerrainTools.dll\" -a=\"C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.18f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\Bee\\PlayerScriptAssemblies\" -s=\"C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\Harle\\OneDrive\\Documents\\GitHub\\PrototypeCars-CISC4900\\Library\\PackageCache\\com.unity.visualscripting@1.9.1\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -7642,6 +7646,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aP.dag.json",
-  "PayloadsFile": "C:/Users/maste/OneDrive/Documents/GitHub/PrototypeCars-CISC4900/Library/Bee/1900b0aP.dag.payloads",
+  "PayloadsFile": "C:/Users/Harle/OneDrive/Documents/GitHub/PrototypeCars-CISC4900/Library/Bee/1900b0aP.dag.payloads",
   "RelativePathToRoot": "../.."
 }
