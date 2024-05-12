@@ -15,7 +15,7 @@ public class SceneManagerScript : MonoBehaviour
 
     public void OpenCarSelectionScene()
     {
-        SceneManager.LoadScene("BetaScene");
+        SceneManager.LoadScene("CarSelection");
     }
     
     public void QuitGame()

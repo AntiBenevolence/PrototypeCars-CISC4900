@@ -311,6 +311,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/LowPolyWater_Pack/Scripts/LowPolyWater.cs"
 "Assets/Scenes/Menus/Audio/AudioManager.cs"
+"Assets/Scenes/Menus/Ui Elements/CarSelection.cs"
 "Assets/Scenes/Menus/Ui Elements/ControllerBindingPanel.cs"
 "Assets/Scenes/Menus/Ui Elements/ControllerSettingsManager1.cs"
 "Assets/Scenes/Menus/Ui Elements/FullscreenSettings.cs"
