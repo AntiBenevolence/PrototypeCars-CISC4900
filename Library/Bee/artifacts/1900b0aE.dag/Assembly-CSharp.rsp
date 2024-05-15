@@ -358,6 +358,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/LowPolyWater_Pack/Scripts/LowPolyWater.cs"
+"Assets/Scenes/City/CarSpawner.cs"
+"Assets/Scenes/City/GameplayUIManager.cs"
 "Assets/Scenes/Menus/Audio/AudioManager.cs"
 "Assets/Scenes/Menus/Ui Elements/CarSelection.cs"
 "Assets/Scenes/Menus/Ui Elements/ControllerBindingPanel.cs"

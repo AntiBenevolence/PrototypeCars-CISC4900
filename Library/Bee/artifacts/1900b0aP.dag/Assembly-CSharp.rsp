@@ -300,6 +300,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/RoadArchitect.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.TerrainTools.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.Timeline.ref.dll"
@@ -310,6 +311,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/LowPolyWater_Pack/Scripts/LowPolyWater.cs"
+"Assets/Scenes/City/CarSpawner.cs"
 "Assets/Scenes/Menus/Audio/AudioManager.cs"
 "Assets/Scenes/Menus/Ui Elements/CarSelection.cs"
 "Assets/Scenes/Menus/Ui Elements/ControllerBindingPanel.cs"
@@ -356,6 +358,10 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/Vehicle/AWD Wagon/AWDWagController.cs"
+"Assets/Vehicle/AWD Wagon/AWDWagSoundScript.cs"
+"Assets/Vehicle/Muscle/FRMuscEngineSounds.cs"
+"Assets/Vehicle/Muscle/FRMuscleController.cs"
 "Assets/Vehicle/Prototype-Car/CarController.cs"
 -langversion:9.0
 
