@@ -1,0 +1,793 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 15724 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/danic/OneDrive/Documents/GitHub/PrototypeCars-CISC4900
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61423
+Successfully changed project path to: C:/Users/danic/OneDrive/Documents/GitHub/PrototypeCars-CISC4900
+C:/Users/danic/OneDrive/Documents/GitHub/PrototypeCars-CISC4900
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17764] Host "[IP] 192.168.1.252 [Port] 0 [Flags] 2 [Guid] 1183535270 [EditorId] 1183535270 [Version] 1048832 [Id] WindowsEditor(7,AcerDan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17764] Host "[IP] 192.168.1.252 [Port] 0 [Flags] 2 [Guid] 1183535270 [EditorId] 1183535270 [Version] 1048832 [Id] WindowsEditor(7,AcerDan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 7.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/danic/OneDrive/Documents/GitHub/PrototypeCars-CISC4900/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005319 seconds.
+- Loaded All Assemblies, in  0.331 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.260 seconds
+Domain Reload Profiling: 590ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (104ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (117ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (260ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (204ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.603 seconds
+Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.565 seconds
+Domain Reload Profiling: 1166ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (376ms)
+		LoadAssemblies (299ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (125ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (566ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (423ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (335ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 5.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3575 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (1.5 MB). Loaded Objects now: 4055.
+Memory consumption went from 168.3 MB to 166.8 MB.
+Total: 6.485600 ms (FindLiveObjects: 0.605500 ms CreateObjectMapping: 0.187600 ms MarkObjects: 4.890700 ms  DeleteObjects: 0.799600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 154041.560638 seconds.
+  path: Assets/Vehicle/Muscle
+  artifactKey: Guid(011d6ad5a88fcf942bc98529b1d38cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vehicle/Muscle using Guid(011d6ad5a88fcf942bc98529b1d38cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fc110f199525305ddcecd098b7a98e') in 0.004748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.274797 seconds.
+  path: Assets/Vehicle/FRMuscEngineSounds.cs
+  artifactKey: Guid(35893e0644d5cc74bb78ef3b0c92c477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vehicle/FRMuscEngineSounds.cs using Guid(35893e0644d5cc74bb78ef3b0c92c477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eaa38c3b5c38aa47a93c00d4efd9416') in 0.000592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.396 seconds
+Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.819 seconds
+Domain Reload Profiling: 1213ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (819ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (359ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (281ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 5.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3508 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.5 MB). Loaded Objects now: 4058.
+Memory consumption went from 154.8 MB to 153.3 MB.
+Total: 5.546300 ms (FindLiveObjects: 0.623000 ms CreateObjectMapping: 0.173900 ms MarkObjects: 4.054900 ms  DeleteObjects: 0.692500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.302708 seconds.
+  path: Assets/Vehicle/AWD Wagon
+  artifactKey: Guid(440d63b66fdb3e14f9ec9a683ce8b024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vehicle/AWD Wagon using Guid(440d63b66fdb3e14f9ec9a683ce8b024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ef8ba398914ed5645a45867f7e004c') in 0.005984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.401 seconds
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.847 seconds
+Domain Reload Profiling: 1246ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (197ms)
+		LoadAssemblies (252ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (848ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (375ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 5.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3510 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.5 MB). Loaded Objects now: 4063.
+Memory consumption went from 156.8 MB to 155.3 MB.
+Total: 6.805400 ms (FindLiveObjects: 0.719700 ms CreateObjectMapping: 0.157700 ms MarkObjects: 5.053400 ms  DeleteObjects: 0.872400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39.741909 seconds.
+  path: Assets/Vehicle/FEngAWDNOARMATURE.fbx
+  artifactKey: Guid(7d0c63d49e174f347b8fe175730c1139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vehicle/FEngAWDNOARMATURE.fbx using Guid(7d0c63d49e174f347b8fe175730c1139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590797fc08d2dbf24e8d6554b882a411') in 0.588380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 241
+========================================================================
+Received Import Request.
+  Time since last request: 5.321836 seconds.
+  path: Assets/AWDWagSounds/EXH_803.wav
+  artifactKey: Guid(a67d45cca2c5ee240afc07bf390f5150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_803.wav using Guid(a67d45cca2c5ee240afc07bf390f5150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc3d429d14ef528e34981bd3d375c9b') in 0.032082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AWDWagSounds/EXH_2536_P.wav
+  artifactKey: Guid(5458007ade3def641b0125c72c63e1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_2536_P.wav using Guid(5458007ade3def641b0125c72c63e1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33ba8329d940b3f4d3bcce7c3370b46') in 0.013364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AWDWagSounds/EXH_1808.wav
+  artifactKey: Guid(37f5c0d0cbb627849956c56cfa918cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_1808.wav using Guid(37f5c0d0cbb627849956c56cfa918cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27acae13b5d75ef81cd9371ac986ac89') in 0.017611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AWDWagSounds/EXH_1476_P.wav
+  artifactKey: Guid(9e9f4465040281140b46c025960ec062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_1476_P.wav using Guid(9e9f4465040281140b46c025960ec062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c965813bd1d9d8898d5cba83083486') in 0.013391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AWDWagSounds/EXH_1289.wav
+  artifactKey: Guid(c33d1c1425213cb4babd576c5a2249ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_1289.wav using Guid(c33d1c1425213cb4babd576c5a2249ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1e81afec17bc587928efa09c38c761') in 0.022043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AWDWagSounds/EXH_1205_P.wav
+  artifactKey: Guid(3606b778756ebb44c944fcc9c3013c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_1205_P.wav using Guid(3606b778756ebb44c944fcc9c3013c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd67cc39b5983fa35144b4af37b8182') in 0.026398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AWDWagSounds/EXH_2215_P.wav
+  artifactKey: Guid(74a1a36aac2d75548be57c89d061b662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_2215_P.wav using Guid(74a1a36aac2d75548be57c89d061b662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa9baacb9809332334b4033f974ad92') in 0.013592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AWDWagSounds/EXH_1476.wav
+  artifactKey: Guid(344be6ffbd157da47b6a8f40bd0938e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_1476.wav using Guid(344be6ffbd157da47b6a8f40bd0938e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea9cac621f318790126a06d8f3a9e6d') in 0.014198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AWDWagSounds/EXH_3806.wav
+  artifactKey: Guid(ed9abe4ceb4dcc744be0e1814b2be57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_3806.wav using Guid(ed9abe4ceb4dcc744be0e1814b2be57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26016cc14f9d4aee0281f3969b9f7848') in 0.013678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AWDWagSounds/EXH_2370.wav
+  artifactKey: Guid(f9b36982b97c9794baed764ab6888a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_2370.wav using Guid(f9b36982b97c9794baed764ab6888a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c88346dcedf43875bfce599399ccfd') in 0.013322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AWDWagSounds/EXH_2714.wav
+  artifactKey: Guid(c8000763c9e86d14f8ede968770aa2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_2714.wav using Guid(c8000763c9e86d14f8ede968770aa2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83e1584bb520cd621ef7b465f5960d0') in 0.013372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AWDWagSounds/EXH_2904_P.wav
+  artifactKey: Guid(d3f154845e8bc2f4d8f48b911509338f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_2904_P.wav using Guid(d3f154845e8bc2f4d8f48b911509338f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d35550157bba69b0735c3715dd5ade9') in 0.021196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AWDWagSounds/EXH_1579.wav
+  artifactKey: Guid(0372226eef5dc5d44a41a73a04fd281e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_1579.wav using Guid(0372226eef5dc5d44a41a73a04fd281e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbabc5afb49e940f451d2e103eab6656') in 0.014293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AWDWagSounds/EXH_1052.wav
+  artifactKey: Guid(1d890e9045666e24ca8a2ada6da97c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_1052.wav using Guid(1d890e9045666e24ca8a2ada6da97c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb88fdd347f125f2a5b69627168dee5') in 0.013789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/AWDWagSounds/EXH_2714_P.wav
+  artifactKey: Guid(30e50ac0f9c3e0042ab85978d9a639da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_2714_P.wav using Guid(30e50ac0f9c3e0042ab85978d9a639da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfb4d0e2a2d36f0cb167472bf39c36e') in 0.011501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AWDWagSounds/EXH_919_P.wav
+  artifactKey: Guid(728c5690c16288642bcb53465c79abee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_919_P.wav using Guid(728c5690c16288642bcb53465c79abee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bac63d9ff7dcb7458a03fd8c50e4388') in 0.013866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AWDWagSounds/EXH_2215.wav
+  artifactKey: Guid(8818403fc3cb6af408997ac7e2fd9dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_2215.wav using Guid(8818403fc3cb6af408997ac7e2fd9dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922475d1bb80e2989908f183faa6e9ed') in 0.012802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AWDWagSounds/EXH_1935.wav
+  artifactKey: Guid(4f272a024e804d346ad6cd7d326e4235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_1935.wav using Guid(4f272a024e804d346ad6cd7d326e4235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a5554816cd300f373a4ab55ee5df0f') in 0.013335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AWDWagSounds/EXH_3557_P.wav
+  artifactKey: Guid(971a5463caa4c7a4e8107edc6d49ac2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_3557_P.wav using Guid(971a5463caa4c7a4e8107edc6d49ac2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9b898885e05381ff3d9a0620b85c50') in 0.012573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AWDWagSounds/EXH_3806_P.wav
+  artifactKey: Guid(b3f2636029a89d74bb1988687e46d9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_3806_P.wav using Guid(b3f2636029a89d74bb1988687e46d9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4fb12bb138150075ffe25a80684e98') in 0.012806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AWDWagSounds/EXH_1126.wav
+  artifactKey: Guid(380b2865184418b48890236faca7864e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_1126.wav using Guid(380b2865184418b48890236faca7864e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486e4abba468044586311998a6573cfb') in 0.012841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AWDWagSounds/EXH_3557.wav
+  artifactKey: Guid(c1e994212bfa42548ad43eede915a1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_3557.wav using Guid(c1e994212bfa42548ad43eede915a1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7243613d1efed446f0550a76d7f9a2') in 0.012230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AWDWagSounds/EXH_984_P.wav
+  artifactKey: Guid(bd1e2d1b5ab8e4e48befe70008a10e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_984_P.wav using Guid(bd1e2d1b5ab8e4e48befe70008a10e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a62f16074ef0fdce857e384e620be40') in 0.012275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AWDWagSounds/EXH_984.wav
+  artifactKey: Guid(094d2045f2db41548854d303fb4e1699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_984.wav using Guid(094d2045f2db41548854d303fb4e1699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fec7f82839b4ba1687f5adce6652106') in 0.012594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AWDWagSounds/EXH_1380.wav
+  artifactKey: Guid(1459c40644071bd40aff1c983d7fccd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_1380.wav using Guid(1459c40644071bd40aff1c983d7fccd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68110031577a2fc9288219486e5ec75a') in 0.014030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AWDWagSounds/EXH_1289_P.wav
+  artifactKey: Guid(24436f96ab879da4ab664002b8eaaaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds/EXH_1289_P.wav using Guid(24436f96ab879da4ab664002b8eaaaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08d8f3592ccd2268c6565650b4a0c46') in 0.012925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.809095 seconds.
+  path: Assets/AWDWagon.fbx
+  artifactKey: Guid(ce77cad9c6c62694faf1769d855a3051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagon.fbx using Guid(ce77cad9c6c62694faf1769d855a3051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69330e20cd5449ddeed29d08967c1aa') in 0.195013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 3.513030 seconds.
+  path: Assets/AWDWagSounds
+  artifactKey: Guid(b26fff63bde8d7b4f9fcf5a689ecabe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagSounds using Guid(b26fff63bde8d7b4f9fcf5a689ecabe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b13109207dd6e814b050373ad988d6') in 0.000721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.884517 seconds.
+  path: Assets/AWDWagon.prefab
+  artifactKey: Guid(34736f2355a70c34ab2d2cbf02b2c3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AWDWagon.prefab using Guid(34736f2355a70c34ab2d2cbf02b2c3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7ac893600c06632ff16a8e87871485') in 0.077182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 295
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.391 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.835 seconds
+Domain Reload Profiling: 1224ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (836ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (374ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3510 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.5 MB). Loaded Objects now: 4112.
+Memory consumption went from 163.7 MB to 162.2 MB.
+Total: 6.186500 ms (FindLiveObjects: 0.861300 ms CreateObjectMapping: 0.177700 ms MarkObjects: 4.390200 ms  DeleteObjects: 0.755100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.945961 seconds.
+  path: Assets/Vehicle/AWDWagon.prefab
+  artifactKey: Guid(34736f2355a70c34ab2d2cbf02b2c3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vehicle/AWDWagon.prefab using Guid(34736f2355a70c34ab2d2cbf02b2c3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c29f41e3b7a4fd68ee3fb984f2d75a5') in 0.112594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 295
+========================================================================
+Received Import Request.
+  Time since last request: 0.866984 seconds.
+  path: Assets/Vehicle/AWDWagController.cs
+  artifactKey: Guid(fd17e2d7f405d7d4fa9b49c203e12860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vehicle/AWDWagController.cs using Guid(fd17e2d7f405d7d4fa9b49c203e12860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4c3f2ab9f07e86e9e60e48a6837a42') in 0.000775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.378 seconds
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.824 seconds
+Domain Reload Profiling: 1201ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (824ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (371ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 5.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3510 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.5 MB). Loaded Objects now: 4115.
+Memory consumption went from 165.6 MB to 164.1 MB.
+Total: 5.970900 ms (FindLiveObjects: 0.632600 ms CreateObjectMapping: 0.217900 ms MarkObjects: 4.388400 ms  DeleteObjects: 0.730400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15.676659 seconds.
+  path: Assets/Vehicle/AWD Wagon/AWDWagon.prefab
+  artifactKey: Guid(34736f2355a70c34ab2d2cbf02b2c3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vehicle/AWD Wagon/AWDWagon.prefab using Guid(34736f2355a70c34ab2d2cbf02b2c3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62aae23834968a24495207b828a47d4') in 0.102937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 295
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.385 seconds
+Refreshing native plugins compatible for Editor in 3.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.838 seconds
+Domain Reload Profiling: 1221ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (182ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (839ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (368ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (283ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 4.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3510 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.5 MB). Loaded Objects now: 4118.
+Memory consumption went from 167.5 MB to 166.1 MB.
+Total: 5.484100 ms (FindLiveObjects: 0.600500 ms CreateObjectMapping: 0.175200 ms MarkObjects: 4.039700 ms  DeleteObjects: 0.667200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

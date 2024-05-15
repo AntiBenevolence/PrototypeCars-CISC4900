@@ -404,8 +404,10 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
-"Assets/Vehicle/FRMuscEngineSounds.cs"
-"Assets/Vehicle/FRMuscleController.cs"
+"Assets/Vehicle/AWD Wagon/AWDWagController.cs"
+"Assets/Vehicle/AWD Wagon/AWDWagSoundScript.cs"
+"Assets/Vehicle/Muscle/FRMuscEngineSounds.cs"
+"Assets/Vehicle/Muscle/FRMuscleController.cs"
 "Assets/Vehicle/Prototype-Car/CarController.cs"
 -langversion:9.0
 
