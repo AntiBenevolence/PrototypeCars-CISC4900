@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="nohesihub.css">
+    
+    <!-- Page title and favicon -->
+    <title>NoHesiHub | No Hesi Interactives</title>
+    <link rel="icon" href="img/image2.png">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">No Hesi Interactives</a></li>
+            <li><a href="nohesihub.html">NoHesiHub</a></li>
+            <li><a href="createPost.html">Create a post</a></li>
+        </ul>
+    </div>
+
+    <!-- Main content section -->
+    <main class="main-content">
+        <!-- Header with main title and subtitle -->
+        <h1 class="header-1-font-size">NoHesiHub</h1>
+        <h3 class="header-3-font-size">Connect with the community</h3>
+        
+        <!-- Sort buttons and search bar -->
+        <div class="sort-buttons">
+            <input type="text" id="searchInput" placeholder="Search posts by title..." class="search-bar">
+            <button id="newest" class="sort-button">Newest</button>
+            <button id="mostPopular" class="sort-button">Most Popular</button>
+        </div>
+            
+        <!-- Container for posts -->
+        <div id="posts-container"></div>
+    </main>
+
+    <!-- Footer section with links -->
+    <div class="footer">
+        <a href="index.html" rel="noopener noreferrer">Home</a> |
+        <a href="legal.html" rel="noopener noreferrer">Legal</a> |
+        <a href="contactus.html" rel="noopener noreferrer">Contact Us</a> |
+        <a href="termsofuse.html" rel="noopener noreferrer">Terms of Use</a> |
+        <a href="privacypolicy.html" rel="noopener noreferrer">Privacy Policy</a> |
+        <a href="codeofconduct.html" rel="noopener noreferrer">Code of Conduct</a>
+    </div>
+
+    <!-- Import Supabase JavaScript library and initialize the client -->
+    <script type="module">
+        import { createClient } from 'https://cdn.skypack.dev/@supabase/supabase-js';
+        window.supabase = createClient('https://tpwvqeodqsswzaixarnm.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRwd3ZxZW9kcXNzd3phaXhhcm5tIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTUwMTY3NzksImV4cCI6MjAzMDU5Mjc3OX0.jbf_zWIAovuujlaAshVqLTfyq-Al-PX_wOqZRgD7qPs');
+    </script>
+    
+    <!-- Link to external JavaScript file -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>

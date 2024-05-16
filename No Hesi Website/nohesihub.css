@@ -1,0 +1,228 @@
+/* Header styles */
+.header-1-font-size {
+    font-size: 50px;
+    color: black; 
+    font-weight: bold;
+}
+
+.header-2-font-size {
+    font-size: 40px;
+    color: black; 
+    font-weight: bold;
+}
+
+.header-3-font-size {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.header-4-font-size {
+    font-size: 28px;
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Paragraph styles */
+.paragraph-font-size {
+    font-size: 22px;
+    margin-left: 30px;
+    color: white;
+}
+
+/* Unordered list styles within paragraphs */
+ul.paragraph-font-size {
+    list-style-type: filled circle;
+    padding-left: 10px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+/* Base styles for html and body */
+html, body {
+    background-image: url('img/image3.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    font-family: 'Young Serif', serif;
+    min-height: 100vh; 
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    flex-direction: column; 
+    scroll-behavior: smooth;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.navbar ul li a:hover {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Main content styles */
+.main-content {
+    flex: 1;
+    padding: 80px 20px 0;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+/* Footer styles */
+.footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Global font styles */
+* {
+    font-family: 'Young Serif', serif !important;  
+}
+
+/* Global box sizing and margin/padding reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Posts container styles */
+.posts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: rgba(128, 128, 128, 0.2); 
+    padding: 20px;
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 800px; 
+}
+
+/* Post card styles */
+.post-card {
+    background-color: #007afd86;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px; 
+    padding: 10px 20px; 
+    width: 100%; 
+    max-width: 600px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    cursor: pointer; 
+    transition: transform 0.3s, background-color 0.3s; 
+}
+
+.post-card:hover {
+    transform: scale(1.05); 
+}
+
+.post-card:active {
+    background-color: green; 
+    transform: scale(1); 
+}
+
+/* Post title styles */
+.post-title {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+/* Post metadata styles */
+.post-meta {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+/* Sort buttons container styles */
+.sort-buttons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 15px 30px; 
+    margin: 20px auto; 
+    background-color: #007afd86; 
+    border-radius: 10px; 
+    width: fit-content; 
+}
+
+/* Individual sort button styles */
+.sort-button {
+    background-color: black; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 15px 30px; 
+    margin: 0 10px; 
+    cursor: pointer; 
+    font-size: 18px; 
+    transition: background-color 0.3s; 
+}
+
+.sort-button:hover {
+    background-color: #0056b3; 
+}
+
+.sort-button:active {
+    background-color: green; 
+}
+
+/* Search bar styles */
+.search-bar {
+    padding: 10px 15px;
+    margin-right: 20px; 
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 200px; 
+    font-size: 16px;
+}
+
+/* View post container styles */
+.view-post-container {
+    width: 80%;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #007afd86;  
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

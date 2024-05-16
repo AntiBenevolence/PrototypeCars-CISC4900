@@ -1,0 +1,158 @@
+/* Base styles for html and body */
+html, body {
+    background-image: url('img/image3.png'); /* Set background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed; /* Fixed background image */
+    font-family: 'Young Serif', serif; /* Set default font family */
+    min-height: 100vh; /* Minimum height of 100vh */
+    height: 100%; /* Full height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Column direction */
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+/* Header font size styles */
+.header-1-font-size {
+    font-size: 50px; /* Set font size */
+    color: black; /* Set text color */
+    font-weight: bold; /* Bold font weight */
+}
+
+.header-2-font-size {
+    font-size: 40px; /* Set font size */
+    color: black; /* Set text color */
+    font-weight: bold; /* Bold font weight */
+}
+
+.header-3-font-size {
+    font-size: 30px; /* Set font size */
+    color: black; /* Set text color */
+    font-weight: bold; /* Bold font weight */
+}
+
+.header-4-font-size {
+    font-size: 28px; /* Set font size */
+    margin-left: 20px; /* Set left margin */
+    color: black; /* Set text color */
+    font-weight: bold; /* Bold font weight */
+}
+
+/* Paragraph font size styles */
+.paragraph-font-size {
+    font-size: 22px; /* Set font size */
+    margin-left: 30px; /* Set left margin */
+    color: white; /* Set text color */
+}
+
+/* Unordered list within paragraphs */
+ul.paragraph-font-size {
+    list-style-type: filled circle; /* Custom list style */
+    padding-left: 10px; /* Set left padding */
+    margin-left: 20px; /* Set left margin */
+    text-align: left; /* Align text to the left */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: transparent; /* Transparent background */
+    position: fixed; /* Fixed position */
+    top: 0; /* Align to top */
+    width: 100%; /* Full width */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    padding: 10px 0; /* Set vertical padding */
+    z-index: 1000; /* Set z-index */
+}
+
+.navbar ul {
+    list-style: none; /* Remove list style */
+    padding: 0; /* Remove padding */
+    display: flex; /* Use flexbox */
+    gap: 20px; /* Set gap between items */
+}
+
+.navbar ul li a {
+    color: white; /* Set text color */
+    font-size: 20px; /* Set font size */
+    text-decoration: none; /* Remove text decoration */
+    padding: 5px 10px; /* Set padding */
+}
+
+.navbar ul li a:hover {
+    color: blue; /* Set text color on hover */
+    font-weight: bold; /* Bold font weight on hover */
+    text-decoration: underline; /* Underline text on hover */
+}
+
+/* Footer styles */
+.footer {
+    width: 100%; /* Full width */
+    background-color: black; /* Set background color */
+    color: white; /* Set text color */
+    text-align: center; /* Center text */
+    padding: 10px 0; /* Set padding */
+}
+
+/* Global font styles */
+* {
+    font-family: 'Young Serif', serif !important; /* Set font family */
+}
+
+/* Main content styles */
+.main-content {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 80vh; /* Set height */
+    flex-direction: column; /* Column direction */
+    flex: 1; /* Flex grow */
+    padding: 80px 20px 0; /* Set padding */
+    text-align: center; /* Center text */
+    font-weight: bold; /* Bold font weight */
+}
+
+/* Form styles */
+form {
+    width: 50%; /* Set width */
+    max-width: 600px; /* Maximum width */
+    min-width: 300px; /* Minimum width */
+}
+
+/* Input and textarea styles */
+input, textarea {
+    width: 100%; /* Full width */
+    padding: 8px; /* Set padding */
+    margin: 10px 0; /* Set margin */
+    box-sizing: border-box; /* Use border-box sizing */
+    border: 2px solid #ccc; /* Set border */
+    border-radius: 4px; /* Set border radius */
+}
+
+/* Textarea specific styles */
+textarea {
+    height: 100px; /* Set height */
+}
+
+/* Button styles */
+button {
+    background-color: black; /* Set background color */
+    color: white; /* Set text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Set padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove text decoration */
+    display: inline-block; /* Inline block */
+    font-size: 16px; /* Set font size */
+    margin: 4px 2px; /* Set margin */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 5px; /* Set border radius */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+button:active {
+    background-color: green; /* Set background color on active */
+}

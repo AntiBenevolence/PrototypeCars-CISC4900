@@ -1,0 +1,236 @@
+/* Base styles for html and body */
+html, body {
+  background-image: url('img/image1.png'); /* Set background image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the background image */
+  background-attachment: fixed; /* Fixed background image */
+  font-family: 'Young Serif', serif; /* Set default font family */
+  min-height: 100vh; /* Minimum height of 100vh */
+  height: 100%; /* Full height */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Column direction */
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+/* Container styles */
+.container {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+/* Header font size styles */
+.header-1-font-size {
+  font-size: 50px; /* Set font size */
+  color: black; /* Set text color */
+  font-weight: bold; /* Bold font weight */
+}
+
+.header-2-font-size {
+  font-size: 40px; /* Set font size */
+  color: black; /* Set text color */
+  font-weight: bold; /* Bold font weight */
+}
+
+.header-3-font-size {
+  font-size: 30px; /* Set font size */
+  color: black; /* Set text color */
+  font-weight: bold; /* Bold font weight */
+}
+
+.header-4-font-size {
+  font-size: 28px; /* Set font size */
+  margin-left: 20px; /* Set left margin */
+  color: black; /* Set text color */
+  font-weight: bold; /* Bold font weight */
+}
+
+/* Paragraph font size styles */
+.paragraph-font-size {
+  font-size: 22px; /* Set font size */
+  margin-left: 30px; /* Set left margin */
+  color: white; /* Set text color */
+}
+
+/* Unordered list within paragraphs */
+ul.paragraph-font-size {
+  list-style-type: filled circle; /* Custom list style */
+  padding-left: 10px; /* Set left padding */
+  margin-left: 20px; /* Set left margin */
+  text-align: left; /* Align text to the left */
+}
+
+/* List item styles */
+li {
+  color: white; /* Set text color */
+}
+
+/* Article styles */
+article {
+  border: 1px solid red; /* Set border */
+  padding: 10px; /* Set padding */
+  margin-bottom: 15px; /* Set bottom margin */
+  border-radius: 5px; /* Set border radius */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+article:hover {
+  background-color: rgba(255, 255, 255, 0.032); /* Set background color on hover */
+}
+
+/* Form input and button styles */
+#signup-form input, #signup-form button, #login-form input, #login-form button {
+  display: block; /* Display block */
+  width: 50%; /* Set width */
+  margin: 10px auto; /* Set margin */
+  padding: 8px 10px; /* Set padding */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Set box shadow */
+  border-radius: 4px; /* Set border radius */
+}
+
+/* Button styles */
+#signup-form button, #login-form button {
+  background-color: black; /* Set background color */
+  color:white;
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+#signup-form button:active, #login-form button:active {
+  background-color: green; /* Set background color on active */
+}
+
+#signup-form button:hover, #login-form button:hover {
+  background-color: blue; /* Set background color on hover */
+}
+
+/* Carousel styles */
+.carousel {
+  margin-top: 15px; /* Set top margin */
+  margin-bottom: 15px; /* Set bottom margin */
+}
+
+.bootstrap-wrapper .carousel-item img {
+  height: 250px; /* Set height */
+  object-fit: contain; /* Contain within the box */
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column; /* Column direction */
+  }
+  .header-item:nth-of-type(1),
+  .header-item:nth-of-type(2) {
+    width: 100%; /* Full width */
+  }
+}
+
+/* Navbar styles */
+.my-custom-styles .navbar {
+  background-color: transparent; /* Transparent background */
+  position: fixed; /* Fixed position */
+  top: 0; /* Align to top */
+  width: 100%; /* Full width */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center content horizontally */
+  padding: 10px 0; /* Set vertical padding */
+  z-index: 1000; /* Set z-index */
+}
+
+.my-custom-styles .navbar ul {
+  list-style: none; /* Remove list style */
+  padding: 0; /* Remove padding */
+  display: flex; /* Use flexbox */
+  gap: 20px; /* Set gap between items */
+}
+
+.my-custom-styles .navbar ul li a {
+  color: white; /* Set text color */
+  font-size: 20px; /* Set font size */
+  text-decoration: none; /* Remove text decoration */
+  padding: 5px 10px; /* Set padding */
+}
+
+.my-custom-styles .navbar ul li a:hover {
+  color: blue; /* Set text color on hover */
+  font-weight: bold; /* Bold font weight on hover */
+  text-decoration: underline; /* Underline text on hover */
+}
+
+/* Main content styles */
+.my-custom-styles .main-content {
+  flex: 1; /* Flex grow */
+  padding: 80px 20px 0; /* Set padding */
+  text-align: center; /* Center text */
+  font-weight: bold; /* Bold font weight */
+}
+
+/* Footer styles */
+.my-custom-styles .footer {
+  width: 100%; /* Full width */
+  background-color: black; /* Set background color */
+  color: white; /* Set text color */
+  text-align: center; /* Center text */
+  padding: 10px 0; /* Set padding */
+}
+
+/* Global font styles */
+.my-custom-styles, .my-custom-styles * {
+  font-family: 'Young Serif', serif !important; /* Set font family */
+}
+
+/* Download button styles */
+.download-button {
+  display: inline-block; /* Inline block */
+  padding: 20px 40px; /* Set padding */
+  margin-top: 20px; /* Set top margin */
+  background-color: black; /* Set background color */
+  color: white; /* Set text color */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove text decoration */
+  font-weight: bold; /* Bold font weight */
+  border-radius: 5px; /* Set border radius */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.download-button:hover {
+  background-color: blue; /* Set background color on hover */
+}
+
+/* Gallery container styles */
+.gallery-container {
+  background-color: rgba(0, 122, 253, 0.53); /* Set background color */
+  padding: 20px; /* Set padding */
+  border-radius: 10px; /* Set border radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Set box shadow */
+}
+
+/* Gallery styles */
+.gallery {
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(5, 1fr); /* Set grid columns */
+  gap: 15px; /* Set gap between items */
+  padding: 20px; /* Set padding */
+}
+
+.gallery a {
+  position: relative; /* Relative position */
+  overflow: hidden; /* Hide overflow */
+  border-radius: 5px; /* Set border radius */
+}
+
+.gallery img, .gallery video {
+  width: 100%; /* Full width */
+  height: 150px; /* Set height */
+  object-fit: cover; /* Cover within the box */
+  display: block; /* Display block */
+  transition: transform 0.3s ease; /* Smooth transform transition */
+}
+
+.gallery a:hover img, .gallery a:hover video {
+  transform: scale(1.05); /* Scale up on hover */
+}

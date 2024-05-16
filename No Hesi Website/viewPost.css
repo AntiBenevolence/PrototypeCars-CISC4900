@@ -1,0 +1,352 @@
+    .header-1-font-size{
+        font-size: 50px;
+        color: black; 
+        font-weight: bold;
+      }
+      
+      .header-2-font-size{
+        font-size: 40px;
+        color: black; 
+        font-weight: bold;
+      }
+      
+      .header-3-font-size{
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+    
+      }
+      
+      .header-4-font-size{
+        font-size: 28px;
+        margin-left: 20px;
+        color: black;
+        font-weight: bold;
+      }
+      
+      .paragraph-font-size{
+        font-size: 22px;
+        margin-left: 30px;
+        color: white;
+      }
+      
+            ul.paragraph-font-size {
+        list-style-type: filled circle;
+        padding-left: 10px;
+        margin-left: 20px;
+        text-align: left;
+      }
+      
+      html, body {
+      background-image: url('img/image3.png'); 
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-attachment: fixed; 
+      min-height: 100vh; 
+      height: 100%; 
+      margin: 0;
+      padding: 0;
+      display: flex; 
+      flex-direction: column; 
+      scroll-behavior: smooth;
+  }
+  
+  .navbar {
+      background-color: transparent;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+      z-index: 1000;
+  }
+  
+  .navbar ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+  }
+  
+  .navbar ul li a {
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+      padding: 5px 10px;
+  }
+  
+  .navbar ul li a:hover {
+      color: blue;
+      font-weight: bold;
+      text-decoration: underline;
+  }
+  
+  .main-content {
+      flex: 1;
+      padding: 80px 20px 0;
+      text-align: center;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+  }
+  
+  .footer {
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+  }
+  
+  * {
+      font-family: 'Young Serif', serif !important;  
+       box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  
+
+.view-post-container {
+    width: 80%;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #007afd86;  
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; 
+}
+
+/* Upvote count styles */
+#upvote-count {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Upvote button styles */
+.upvote-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.upvote-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.upvote-button:active {
+    transform: scale(0.95);
+}
+
+/* Styles for the upvoted state */
+.upvote-button.upvoted {
+    background-color: green;
+    color: white;
+}
+
+/* Styles for the unvoted state */
+.upvote-button.unvoted {
+    background-color: black;
+    color: white;
+}
+
+/* Delete button styles */
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+    transform: scale(1.05);
+}
+
+.delete-button:active {
+    transform: scale(0.95);
+}
+
+/* Comments container styles */
+.comments-container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.comment {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Comment input and button styles */
+.comment-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.comment-button {
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+/* View post container styles */
+.view-post-container {
+    width: 80%;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #007afd86; 
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; 
+}
+
+/* Upvote count styles */
+#upvote-count {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Upvote button styles */
+.upvote-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.upvote-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.upvote-button:active {
+    transform: scale(0.95);
+}
+
+/* Styles for the upvoted state */
+.upvote-button.upvoted {
+    background-color: green;
+    color: white;
+}
+
+/* Styles for the unvoted state */
+.upvote-button.unvoted {
+    background-color: black;
+    color: white;
+}
+
+/* Update button styles */
+.update-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    position: absolute;
+    bottom: 20px;
+    right: 80px; 
+    margin-right: 10px; 
+}
+
+.update-button:hover {
+    background-color: darkorange;
+    transform: scale(1.05);
+}
+
+.update-button:active {
+    transform: scale(0.95);
+}
+
+/* Delete button styles */
+.delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+    transform: scale(1.05);
+}
+
+.delete-button:active {
+    transform: scale(0.95);
+}
+
+/* Comments container styles */
+.comments-container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* Comment input styles */
+.comment-input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+/* Comment button styles */
+.comment-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.comment-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.comment-button:active {
+    transform: scale(0.95);
+}
