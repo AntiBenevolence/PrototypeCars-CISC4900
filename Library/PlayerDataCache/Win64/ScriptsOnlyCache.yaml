@@ -9,6 +9,7 @@ ScriptsOnlyBuild:
     - FRMuscEngineSounds
     - FRMuscleController
     - FullscreenSettings
+    - GameplayUIManager
     - GraphicsSettings
     - LowPolyWater.LowPolyWater
     - ResolutionSettings
@@ -236,41 +237,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5254}
     - Class: 114
+      Script: {instanceID: 5510}
+    - Class: 114
       Script: {instanceID: 5814}
     - Class: 114
       Script: {instanceID: 5974}
     - Class: 114
       Script: {instanceID: 6306}
     - Class: 114
-      Script: {instanceID: 8602}
-    - Class: 114
-      Script: {instanceID: 8658}
+      Script: {instanceID: 8610}
     - Class: 114
       Script: {instanceID: 8670}
     - Class: 114
-      Script: {instanceID: 8698}
+      Script: {instanceID: 8682}
     - Class: 114
-      Script: {instanceID: 8764}
+      Script: {instanceID: 8710}
     - Class: 114
-      Script: {instanceID: 8964}
+      Script: {instanceID: 8780}
     - Class: 114
-      Script: {instanceID: 8980}
+      Script: {instanceID: 8852}
     - Class: 114
-      Script: {instanceID: 9016}
+      Script: {instanceID: 8984}
     - Class: 114
-      Script: {instanceID: 9204}
+      Script: {instanceID: 9000}
     - Class: 114
-      Script: {instanceID: 9360}
+      Script: {instanceID: 9036}
+    - Class: 114
+      Script: {instanceID: 9224}
     - Class: 114
       Script: {instanceID: 9380}
     - Class: 114
-      Script: {instanceID: 9412}
+      Script: {instanceID: 9400}
     - Class: 114
-      Script: {instanceID: 9436}
+      Script: {instanceID: 9432}
     - Class: 114
-      Script: {instanceID: 9544}
+      Script: {instanceID: 9456}
     - Class: 114
-      Script: {instanceID: 38658}
+      Script: {instanceID: 9552}
+    - Class: 114
+      Script: {instanceID: 9568}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -345,7 +350,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6306}
     - Class: 114
-      Script: {instanceID: 9360}
+      Script: {instanceID: 9380}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -412,7 +417,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6318}
     - Class: 114
-      Script: {instanceID: 8674}
+      Script: {instanceID: 8686}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -489,9 +494,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6306}
     - Class: 114
-      Script: {instanceID: 9360}
+      Script: {instanceID: 9380}
     - Class: 114
-      Script: {instanceID: 9460}
+      Script: {instanceID: 9480}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -572,17 +577,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7374}
     - Class: 114
-      Script: {instanceID: 8840}
+      Script: {instanceID: 8860}
     - Class: 114
-      Script: {instanceID: 8900}
+      Script: {instanceID: 8920}
     - Class: 114
-      Script: {instanceID: 9180}
+      Script: {instanceID: 9200}
     - Class: 114
-      Script: {instanceID: 9360}
+      Script: {instanceID: 9380}
     - Class: 114
-      Script: {instanceID: 9460}
+      Script: {instanceID: 9480}
     - Class: 114
-      Script: {instanceID: 9592}
+      Script: {instanceID: 9616}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1466,6 +1471,12 @@ ScriptsOnlyBuild:
     className: TMP_TextInfoDebugTool
   - hash:
       serializedVersion: 2
+      Hash: a371567d4a1c090ee150dc2f2d0b6083
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FWDSoundController
+  - hash:
+      serializedVersion: 2
       Hash: fd839191d48bb61e27c349f38977bd7e
     assemblyName: RoadArchitect
     namespaceName: RoadArchitect
@@ -1514,6 +1525,12 @@ ScriptsOnlyBuild:
     className: SteeringWheelBindingPanel1
   - hash:
       serializedVersion: 2
+      Hash: 31d73fc1dba77bf2293634f418c1427a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FWDController
+  - hash:
+      serializedVersion: 2
       Hash: d79c9d1b59fc9a45f5d18fd20b5c4ffe
     assemblyName: RoadArchitect
     namespaceName: RoadArchitect
@@ -1554,6 +1571,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro
     className: TMP_PhoneNumberValidator
+  - hash:
+      serializedVersion: 2
+      Hash: 5f561b551d543e6527ead3f14776da2d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameplayUIManager
   - hash:
       serializedVersion: 2
       Hash: 52840a82fb83b3a7df342e354c4815e4
@@ -1820,6 +1843,12 @@ ScriptsOnlyBuild:
     className: SplineCEditor
   - hash:
       serializedVersion: 2
+      Hash: 81435527f1c0042c82569a04be8b8b56
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CarSpawner
+  - hash:
+      serializedVersion: 2
       Hash: 7494c0e356886a484fe8966b5b62a495
     assemblyName: RoadArchitect
     namespaceName: RoadArchitect
@@ -1872,12 +1901,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
     className: TMP_ExampleScript_01
-  - hash:
-      serializedVersion: 2
-      Hash: 81435527f1c0042c82569a04be8b8b56
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CarSpawner
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menus/Main Menu.unity

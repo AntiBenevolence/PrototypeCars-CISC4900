@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.32680246, g: 0.33326548, b: 0.3136311, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -542,8 +542,10 @@ MonoBehaviour:
   carModels:
   - {fileID: 4093595652835863636, guid: b5f88a21cd7c4884ab355cc7c6ad0a94, type: 3}
   - {fileID: 8296789342842917881, guid: adbc005165445b745ba37d5d5213ceac, type: 3}
+  - {fileID: 1000492187077649323, guid: 86d838a2a2664694f9ca9d849221137f, type: 3}
   spawnPoints:
   - {fileID: 2035210666}
+  - {fileID: 1330555812}
   - {fileID: 1330555812}
   rotationSpeed: 10
   leftButton: {fileID: 937556546}

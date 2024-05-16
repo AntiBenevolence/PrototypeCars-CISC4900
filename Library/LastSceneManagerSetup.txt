@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Menus/SettingsScene.unity
+- path: Assets/Scenes/Menus/CarSelection.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
